@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/mvc
+       http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+    <context:component-scan base-package="com.xingou.controller" />
+    <!--处理请求时候返回的json字符串的中文乱码问题-->
+    <mvc:annotation-driven>
+        <mvc:message-converters>
+            <bean class="org.springframework.http.converter.StringHttpMessageConverter">
+                <property name="supportedMediaTypes">
+                    <list>
+                        <value>application/json;charset="UTF-8"</value>
+                    </list>
+                </property>
+            </bean>
+        </mvc:message-converters>
+    </mvc:annotation-driven>
+    <!--静态资源访问，不拦截此目录下的访问-->
+    <mvc:default-servlet-handler />
+    <!--<mvc:resources mapping="/js/**" location="/js/"/>-->
+    <!--<mvc:resources mapping="/css/**" location="/css/"/>-->
+    <!--<mvc:resources mapping="/images/**" location="/images/"/>-->
+    <!--<mvc:resources mapping="/fonts/**" location="/fonts/"/>-->
+    <!--<mvc:resources location="/html/" mapping="/**/*.html" />-->
+
+    <!--配置拦截器，多个拦截器的话按顺序执行-->
+    <!--<mvc:interceptors>-->
+        <!--在interceptors标签下声明interceptor主要有两种方式，
+        直接定义一个interceptor实现类的bean对象，或者
+        使用mvc:interceptor标签进行声明，使用这种方式的时候可以用子标签来定义需要进行拦截的请求路径-->
+        <!--<mvc:interceptor>-->
+            <!--<mvc:mapping path="/**/"/>&lt;!&ndash;表示所有路径&ndash;&gt;-->
+            <!--<mvc:exclude-mapping path="/login"/>-->
+            <!--<bean class="interceptor.LoginInterceptor"></bean>-->
+        <!--</mvc:interceptor>-->
+    <!--</mvc:interceptors>-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="views/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+</beans>
