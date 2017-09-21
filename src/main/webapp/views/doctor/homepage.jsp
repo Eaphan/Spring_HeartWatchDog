@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿<%@ page import="com.xingou.entity.Doctor" %>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -68,10 +69,14 @@
         <!-- page content -->
         <div class="right_col" role="main">
           <!-- top tiles -->
-          <p>${doctor.uname}</p>
-          <p>${doctor.passwd}</p>
-          <p>${doctor.email}</p>
-          <p>${doctor.phone}</p>
+          <h3>医生界面</h3>
+          <p>用户姓名${doctor.uname}</p>
+          <p>用户密码${doctor.passwd}</p>
+          <p>用户邮箱${doctor.email}</p>
+          <p>用户手机${doctor.phone}</p>
+          <p>医生信息${doctor.doctorinfo}</p>
+          <p>用户高度${doctor.doctorinfo.height}</p>
+          <p>用户体重${doctor.doctorinfo.weight}</p>
         </div>
         <!-- /page content -->
 

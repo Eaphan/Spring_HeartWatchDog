@@ -3,9 +3,7 @@ package com.xingou.entity;
 *类Doctorinfo
 *@DATE2017/8/30
 *@author viczyf
-*
 */
-
 import org.hibernate.annotations.*;
 import org.hibernate.annotations.Cache;
 import javax.persistence.*;
@@ -23,69 +21,47 @@ public class Doctorinfo {
     private String gender;
     private String hospital;
     private Doctor doctor;
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
-
     public Integer getId() {
         return id;
     }
-
     public void setId(Integer id) {
         this.id = id;
     }
-
-//    @Basic
-//    @Column(name = "uid", nullable = false)
-//    public Integer getUid() {
-//        return uid;
-//    }
-//
-//    public void setUid(Integer uid) {
-//        this.uid = uid;
-//    }
-
     @Basic
     @Column(name = "height", nullable = true, length = 10)
     public String getHeight() {
         return height;
     }
-
     public void setHeight(String height) {
         this.height = height;
     }
-
     @Basic
     @Column(name = "weight", nullable = true, length = 10)
     public String getWeight() {
         return weight;
     }
-
     public void setWeight(String weight) {
         this.weight = weight;
     }
-
     @Basic
     @Column(name = "gender", nullable = true, length = 1)
     public String getGender() {
         return gender;
     }
-
     public void setGender(String gender) {
         this.gender = gender;
     }
-
     @Basic
     @Column(name = "hospital", nullable = true, length = 50)
     public String getHospital() {
         return hospital;
     }
-
     public void setHospital(String hospital) {
         this.hospital = hospital;
     }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -101,7 +77,6 @@ public class Doctorinfo {
 
         return true;
     }
-
     @Override
     public int hashCode() {
         int result = id;
@@ -112,13 +87,16 @@ public class Doctorinfo {
         return result;
     }
 
-
-    @OneToOne
-    @JoinColumn
+    @OneToOne(targetEntity = Doctor.class)
+//    @JoinColumn(name = "uid",referencedColumnName = "uid",unique = true,nullable = false)
+    @JoinColumn(name = "uid",unique = true,nullable = false)
+//    @JoinColumn(name = "uid")
     public Doctor getDoctor() {
         return doctor;
     }
+
     public void setDoctor(Doctor doctor) {
         this.doctor = doctor;
     }
+
 }

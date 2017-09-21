@@ -102,7 +102,7 @@ public class LoginController {
             mav.addObject("errorMsg", "用户密码不正确");
         }else{
             session.setAttribute("user", dbUser);
-            mav.setViewName("redirect:/user_homepage");
+            mav.setViewName("redirect:/homepage");
         }
         return mav;
     }
@@ -118,7 +118,7 @@ public class LoginController {
         }else if (dbDoctor == null) {
             mav.addObject("errorMsg", "用户密码不正确");
         }else{
-            session.setAttribute("doctor", doctor);
+            session.setAttribute("doctor", dbDoctor);
             mav.setViewName("redirect:/doctor_homepage");
         }
         return mav;

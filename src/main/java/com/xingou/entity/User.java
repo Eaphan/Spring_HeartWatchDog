@@ -1,19 +1,17 @@
-package com.xingou.entity;/*
+package com.xingou.entity;
+/*
 *类User
 *@DATE2017/8/30
 *@author viczyf
 *
 */
-
 import org.hibernate.annotations.*;
 import org.hibernate.annotations.Cache;
-
 import javax.persistence.*;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 import java.io.Serializable;
 import java.util.Set;
-
 @Entity
 @Table(name = "user")
 @Cache(usage = CacheConcurrencyStrategy.READ_WRITE)

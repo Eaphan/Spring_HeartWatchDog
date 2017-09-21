@@ -84,10 +84,13 @@
         <!-- page content -->
         <div class="right_col" role="main">
           <!-- top tiles -->
-          <p>${user.uname}</p>
-          <p>${user.passwd}</p>
-          <p>${user.email}</p>
-          <p>${user.phone}</p>
+          <h>用户界面</h>
+          <p>用户姓名${user.uname}</p>
+          <p>用户密码${user.passwd}</p>
+          <p>用户邮箱${user.email}</p>
+          <p>用户手机${user.phone}</p>
+          <p>用户高度${user.userinfo.height}</p>
+          <p>用户体重${user.userinfo.weight}</p>
         </div>
         <!-- /page content -->
 
