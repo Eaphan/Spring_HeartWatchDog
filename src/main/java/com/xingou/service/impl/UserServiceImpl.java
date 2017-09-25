@@ -12,7 +12,7 @@ import com.xingou.dao.UserDao;
 import com.xingou.entity.Doctor;
 import com.xingou.entity.User;
 import com.xingou.service.UserService;
-import sun.rmi.log.ReliableLog;
+
 
 import javax.annotation.Resource;
 import javax.transaction.Transactional;
@@ -22,7 +22,6 @@ public class UserServiceImpl implements UserService {
     @Resource
     private UserDao userDao;
 
-    @Transactional
     public User validLogin(User user) {
         return userDao.findByNameAndPass(user);
     }

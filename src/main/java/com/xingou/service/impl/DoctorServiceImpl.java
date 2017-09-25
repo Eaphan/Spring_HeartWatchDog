@@ -20,7 +20,7 @@ import javax.transaction.Transactional;
 public class DoctorServiceImpl implements DoctorService {
     @Resource
     private DoctorDao doctorDao;
-    @Transactional
+
     public Doctor validLogin(Doctor doctor) {
         return doctorDao.findByNameAndPass(doctor);
     }

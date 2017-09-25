@@ -1,5 +1,13 @@
+com\xingou\service\InfoService.class
+com\xingou\dao\InfoDao.class
 com\xingou\service\DoctorService.class
+com\xingou\entity\Urine.class
 com\xingou\controller\LoginController.class
 com\xingou\controller\MainController.class
+com\xingou\dao\impl\InfoDaoImpl.class
+com\xingou\controller\InfoController.class
+com\xingou\service\impl\InfoServiceImpl.class
+com\xingou\tools\MyTools.class
+com\xingou\controller\RelaController.class
 com\xingou\controller\RegisterController.class
 com\xingou\service\impl\DoctorServiceImpl.class

@@ -13,7 +13,7 @@ public class MainController {
     public String index(){
         return "/user/homepage";
     }
-    @RequestMapping(value = "/doctor_homepage", method = RequestMethod.GET)
+    @RequestMapping(value = "/doctor/homepage", method = RequestMethod.GET)
     public String doctor_homepage(){
         return "/doctor/homepage";
     }

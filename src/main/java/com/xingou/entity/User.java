@@ -28,6 +28,7 @@ public class User implements Serializable {
     private Userinfo userinfo;
     private Set<Examination> Examinations;
     private Set<File> files;
+    private Set<Urine> urines;
     private Set<FriendRequest> request_friends;
     private Set<FriendRequest> toreceived_friends;
     private Set<Info> infos;
@@ -129,7 +130,7 @@ public class User implements Serializable {
         return result;
     }
 
-    @OneToOne()
+    @OneToOne
     @JoinColumn(name="uid")
     public Userinfo getUserinfo() {
         return userinfo;
@@ -155,16 +156,23 @@ public class User implements Serializable {
     public void setFiles(Set<File> files) {
         this.files = files;
     }
+    @OneToMany(mappedBy = "user")
+    public Set<Urine> getUrines() {
+        return urines;
+    }
 
+    public void setUrines(Set<Urine> urines) {
+        this.urines = urines;
+    }
     @OneToMany(mappedBy = "request_user")
-    public Set<FriendRequest> getRequest_friend() {
+    public Set<FriendRequest> getRequest_friends() {
         return request_friends;
     }
-    public void setRequest_friend(Set<FriendRequest> request_friends) {
+    public void setRequest_friends(Set<FriendRequest> request_friends) {
         this.request_friends = request_friends;
     }
 
-    @OneToMany(mappedBy = "toreceived_users")
+    @OneToMany(mappedBy = "toreceived_user")
     public Set<FriendRequest> getToreceived_friends() {
         return toreceived_friends;
     }
@@ -183,7 +191,9 @@ public class User implements Serializable {
     public void setFriends(Set<User> friends) {
         this.friends = friends;
     }
-    @OneToMany(mappedBy = "user")
+//,fetch = FetchType.EAGER
+//    @OneToMany(mappedBy = "user")
+    @OneToMany()
     public Set<Info> getInfos() {
         return infos;
     }
@@ -215,4 +225,6 @@ public class User implements Serializable {
     public void setSuggestions(Set<Suggestion> suggestions) {
         this.suggestions = suggestions;
     }
+
+
 }

@@ -49,6 +49,8 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:4.2.6.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-messaging:4.2.6.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-websocket:4.2.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-aspects:4.2.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.8.9" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.6.0" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.6.0" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.6.0" level="project" />
@@ -74,9 +76,5 @@
     <orderEntry type="library" name="Maven: org.hibernate:hibernate-ehcache:4.3.5.Final" level="project" />
     <orderEntry type="library" name="Maven: net.sf.ehcache:ehcache-core:2.4.3" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.6.1" level="project" />
-    <orderEntry type="library" name="Maven: org.hibernate:hibernate-core:4.3.5.Final" level="project" />
-    <orderEntry type="library" name="Maven: org.hibernate:hibernate-core:4.3.5.Final" level="project" />
-    <orderEntry type="library" name="Maven: org.hibernate:hibernate-core:4.3.5.Final" level="project" />
-    <orderEntry type="library" name="Maven: org.hibernate:hibernate-core:4.3.5.Final" level="project" />
   </component>
 </module>

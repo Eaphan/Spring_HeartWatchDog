@@ -7,11 +7,42 @@
   <!--</welcome-file-list>-->
   <description>心狗健康管理系统</description>
   <display-name>xingou</display-name>
+
   <!--读取spring配置文件-->
   <context-param>
     <param-name>contextConfigLocation</param-name>
     <param-value>classpath:/applicationContext.xml</param-value>
   </context-param>
+  <!--解决懒加载问题-->
+  <filter>
+    <filter-name>hibernateFilter</filter-name>
+    <filter-class>
+      org.springframework.orm.hibernate4.support.OpenSessionInViewFilter
+    </filter-class>
+    <!-- singleSession默认为true,若设为false则等于没用OpenSessionInView -->
+    <init-param>
+      <param-name>sessionFactoryBeanName</param-name>
+      <param-value>sessionFactory</param-value>
+    </init-param>
+    <init-param>
+      <param-name>singleSession</param-name>
+      <param-value>true</param-value>
+    </init-param>
+    <init-param>
+      <param-name>flushMode</param-name>
+      <param-value>AUTO</param-value>
+    </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>hibernateFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <!--启动spring-->
+  <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+
+
   <!--spring字符集过滤器-->
   <filter>
     <filter-name>SpringEncodingFilter</filter-name>
@@ -27,9 +58,9 @@
   </filter>
   <filter-mapping>
     <filter-name>SpringEncodingFilter</filter-name>
-    <url-pattern>/*</url-pattern>
+    <url-pattern>*</url-pattern>
   </filter-mapping>
-
+  <!--处理中文乱码问题-->
   <!--日志记录-->
   <context-param>
     <param-name>log4jConfiigLocation</param-name>
@@ -41,10 +72,6 @@
   </context-param>
   <listener>
     <listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
-  </listener>
-  <!--启动spring-->
-  <listener>
-    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
   </listener>
   <!--spring MVC配置-->
   <servlet>
@@ -73,4 +100,8 @@
     <servlet-name>springMVC</servlet-name>
   </filter-mapping>
 
+  <!--网站的欢迎界面-->
+  <welcome-file-list>
+    <welcome-file>views/login.jsp</welcome-file>
+  </welcome-file-list>
 </web-app>

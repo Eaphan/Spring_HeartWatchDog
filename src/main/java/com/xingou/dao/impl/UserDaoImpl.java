@@ -8,7 +8,6 @@ import com.xingou.dao.UserDao;
 import com.xingou.entity.User;
 import org.hibernate.*;
 import org.springframework.stereotype.Repository;
-
 import java.util.List;
 @Repository("userDao")
 public class UserDaoImpl extends BaseDaoImpl<User> implements UserDao {

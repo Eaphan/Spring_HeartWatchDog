@@ -18,33 +18,33 @@ import javax.persistence.Table;
 public class Info {
     private Integer id;
     private String date;
-    private Integer xinlv;
-    private String xdgs;
+    private int xinlv;
+    private int xdgs;
     private String con1;
-    private String sxxdgs;
+    private int sxxdgs;
     private String con2;
-    private String xdgh;
+    private int xdgh;
     private String con3;
-    private String fxyb;
+    private int fxyb;
     private String con4;
-    private String sxyb;
+    private int sxyb;
     private String con5;
-    private String xlbq;
+    private int xlbq;
     private String con6;
-    private String sxzb;
+    private int sxzb;
     private String con7;
-    private String fxzb;
+    private int fxzb;
     private String con8;
-    private String jjxzb;
+    private int jjxzb;
     private String con9;
-    private String fc;
+    private int fc;
     private String con10;
     private String data;
-    private String pr;
-    private String qrs;
-    private String qt;
-    private String qtc;
-    private String p;
+    private int pr;
+    private int qrs;
+    private int qt;
+    private int qtc;
+    private int p;
     private User user;
 
     public Info(){}
@@ -71,21 +71,21 @@ public class Info {
 
     @Basic
     @Column(name = "xinlv", nullable = true)
-    public Integer getXinlv() {
+    public int getXinlv() {
         return xinlv;
     }
 
-    public void setXinlv(Integer xinlv) {
+    public void setXinlv(int xinlv) {
         this.xinlv = xinlv;
     }
 
     @Basic
     @Column(name = "xdgs", nullable = true, length = 10)
-    public String getXdgs() {
+    public int getXdgs() {
         return xdgs;
     }
 
-    public void setXdgs(String xdgs) {
+    public void setXdgs(int xdgs) {
         this.xdgs = xdgs;
     }
 
@@ -101,11 +101,11 @@ public class Info {
 
     @Basic
     @Column(name = "sxxdgs", nullable = true, length = 10)
-    public String getSxxdgs() {
+    public int getSxxdgs() {
         return sxxdgs;
     }
 
-    public void setSxxdgs(String sxxdgs) {
+    public void setSxxdgs(int sxxdgs) {
         this.sxxdgs = sxxdgs;
     }
 
@@ -121,11 +121,11 @@ public class Info {
 
     @Basic
     @Column(name = "xdgh", nullable = true, length = 10)
-    public String getXdgh() {
+    public int getXdgh() {
         return xdgh;
     }
 
-    public void setXdgh(String xdgh) {
+    public void setXdgh(int xdgh) {
         this.xdgh = xdgh;
     }
 
@@ -141,11 +141,11 @@ public class Info {
 
     @Basic
     @Column(name = "fxyb", nullable = true, length = 10)
-    public String getFxyb() {
+    public int getFxyb() {
         return fxyb;
     }
 
-    public void setFxyb(String fxyb) {
+    public void setFxyb(int fxyb) {
         this.fxyb = fxyb;
     }
 
@@ -161,11 +161,11 @@ public class Info {
 
     @Basic
     @Column(name = "sxyb", nullable = true, length = 10)
-    public String getSxyb() {
+    public int getSxyb() {
         return sxyb;
     }
 
-    public void setSxyb(String sxyb) {
+    public void setSxyb(int sxyb) {
         this.sxyb = sxyb;
     }
 
@@ -181,11 +181,11 @@ public class Info {
 
     @Basic
     @Column(name = "xlbq", nullable = true, length = 10)
-    public String getXlbq() {
+    public int getXlbq() {
         return xlbq;
     }
 
-    public void setXlbq(String xlbq) {
+    public void setXlbq(int xlbq) {
         this.xlbq = xlbq;
     }
 
@@ -201,11 +201,11 @@ public class Info {
 
     @Basic
     @Column(name = "sxzb", nullable = true, length = 10)
-    public String getSxzb() {
+    public int getSxzb() {
         return sxzb;
     }
 
-    public void setSxzb(String sxzb) {
+    public void setSxzb(int sxzb) {
         this.sxzb = sxzb;
     }
 
@@ -221,11 +221,11 @@ public class Info {
 
     @Basic
     @Column(name = "fxzb", nullable = true, length = 10)
-    public String getFxzb() {
+    public int getFxzb() {
         return fxzb;
     }
 
-    public void setFxzb(String fxzb) {
+    public void setFxzb(int fxzb) {
         this.fxzb = fxzb;
     }
 
@@ -241,11 +241,11 @@ public class Info {
 
     @Basic
     @Column(name = "jjxzb", nullable = true, length = 10)
-    public String getJjxzb() {
+    public int getJjxzb() {
         return jjxzb;
     }
 
-    public void setJjxzb(String jjxzb) {
+    public void setJjxzb(int jjxzb) {
         this.jjxzb = jjxzb;
     }
 
@@ -261,11 +261,11 @@ public class Info {
 
     @Basic
     @Column(name = "fc", nullable = true, length = 10)
-    public String getFc() {
+    public int getFc() {
         return fc;
     }
 
-    public void setFc(String fc) {
+    public void setFc(int fc) {
         this.fc = fc;
     }
 
@@ -291,54 +291,53 @@ public class Info {
 
     @Basic
     @Column(name = "pr", nullable = true, length = 5)
-    public String getPr() {
+    public int getPr() {
         return pr;
     }
 
-    public void setPr(String pr) {
+    public void setPr(int pr) {
         this.pr = pr;
     }
 
     @Basic
     @Column(name = "qrs", nullable = true, length = 5)
-    public String getQrs() {
+    public int getQrs() {
         return qrs;
     }
 
-    public void setQrs(String qrs) {
+    public void setQrs(int qrs) {
         this.qrs = qrs;
     }
 
     @Basic
     @Column(name = "qt", nullable = true, length = 5)
-    public String getQt() {
+    public int getQt() {
         return qt;
     }
 
-    public void setQt(String qt) {
+    public void setQt(int qt) {
         this.qt = qt;
     }
 
     @Basic
     @Column(name = "qtc", nullable = true, length = 5)
-    public String getQtc() {
+    public int getQtc() {
         return qtc;
     }
 
-    public void setQtc(String qtc) {
+    public void setQtc(int qtc) {
         this.qtc = qtc;
     }
 
     @Basic
     @Column(name = "p", nullable = true, length = 5)
-    public String getP() {
+    public int getP() {
         return p;
     }
 
-    public void setP(String p) {
+    public void setP(int p) {
         this.p = p;
     }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -346,70 +345,69 @@ public class Info {
 
         Info info = (Info) o;
 
-        if (id != info.id) return false;
+        if (xinlv != info.xinlv) return false;
+        if (xdgs != info.xdgs) return false;
+        if (sxxdgs != info.sxxdgs) return false;
+        if (xdgh != info.xdgh) return false;
+        if (fxyb != info.fxyb) return false;
+        if (sxyb != info.sxyb) return false;
+        if (xlbq != info.xlbq) return false;
+        if (sxzb != info.sxzb) return false;
+        if (fxzb != info.fxzb) return false;
+        if (jjxzb != info.jjxzb) return false;
+        if (fc != info.fc) return false;
+        if (pr != info.pr) return false;
+        if (qrs != info.qrs) return false;
+        if (qt != info.qt) return false;
+        if (qtc != info.qtc) return false;
+        if (p != info.p) return false;
+        if (id != null ? !id.equals(info.id) : info.id != null) return false;
         if (date != null ? !date.equals(info.date) : info.date != null) return false;
-        if (xinlv != null ? !xinlv.equals(info.xinlv) : info.xinlv != null) return false;
-        if (xdgs != null ? !xdgs.equals(info.xdgs) : info.xdgs != null) return false;
         if (con1 != null ? !con1.equals(info.con1) : info.con1 != null) return false;
-        if (sxxdgs != null ? !sxxdgs.equals(info.sxxdgs) : info.sxxdgs != null) return false;
         if (con2 != null ? !con2.equals(info.con2) : info.con2 != null) return false;
-        if (xdgh != null ? !xdgh.equals(info.xdgh) : info.xdgh != null) return false;
         if (con3 != null ? !con3.equals(info.con3) : info.con3 != null) return false;
-        if (fxyb != null ? !fxyb.equals(info.fxyb) : info.fxyb != null) return false;
         if (con4 != null ? !con4.equals(info.con4) : info.con4 != null) return false;
-        if (sxyb != null ? !sxyb.equals(info.sxyb) : info.sxyb != null) return false;
         if (con5 != null ? !con5.equals(info.con5) : info.con5 != null) return false;
-        if (xlbq != null ? !xlbq.equals(info.xlbq) : info.xlbq != null) return false;
         if (con6 != null ? !con6.equals(info.con6) : info.con6 != null) return false;
-        if (sxzb != null ? !sxzb.equals(info.sxzb) : info.sxzb != null) return false;
         if (con7 != null ? !con7.equals(info.con7) : info.con7 != null) return false;
-        if (fxzb != null ? !fxzb.equals(info.fxzb) : info.fxzb != null) return false;
         if (con8 != null ? !con8.equals(info.con8) : info.con8 != null) return false;
-        if (jjxzb != null ? !jjxzb.equals(info.jjxzb) : info.jjxzb != null) return false;
         if (con9 != null ? !con9.equals(info.con9) : info.con9 != null) return false;
-        if (fc != null ? !fc.equals(info.fc) : info.fc != null) return false;
         if (con10 != null ? !con10.equals(info.con10) : info.con10 != null) return false;
         if (data != null ? !data.equals(info.data) : info.data != null) return false;
-        if (pr != null ? !pr.equals(info.pr) : info.pr != null) return false;
-        if (qrs != null ? !qrs.equals(info.qrs) : info.qrs != null) return false;
-        if (qt != null ? !qt.equals(info.qt) : info.qt != null) return false;
-        if (qtc != null ? !qtc.equals(info.qtc) : info.qtc != null) return false;
-        if (p != null ? !p.equals(info.p) : info.p != null) return false;
-
         return true;
     }
 
     @Override
     public int hashCode() {
-        int result = id;
+        int result = id != null ? id.hashCode() : 0;
         result = 31 * result + (date != null ? date.hashCode() : 0);
-        result = 31 * result + (xinlv != null ? xinlv.hashCode() : 0);
-        result = 31 * result + (xdgs != null ? xdgs.hashCode() : 0);
+        result = 31 * result + xinlv;
+        result = 31 * result + xdgs;
         result = 31 * result + (con1 != null ? con1.hashCode() : 0);
-        result = 31 * result + (sxxdgs != null ? sxxdgs.hashCode() : 0);
+        result = 31 * result + sxxdgs;
         result = 31 * result + (con2 != null ? con2.hashCode() : 0);
-        result = 31 * result + (xdgh != null ? xdgh.hashCode() : 0);
+        result = 31 * result + xdgh;
         result = 31 * result + (con3 != null ? con3.hashCode() : 0);
-        result = 31 * result + (fxyb != null ? fxyb.hashCode() : 0);
+        result = 31 * result + fxyb;
         result = 31 * result + (con4 != null ? con4.hashCode() : 0);
-        result = 31 * result + (sxyb != null ? sxyb.hashCode() : 0);
+        result = 31 * result + sxyb;
         result = 31 * result + (con5 != null ? con5.hashCode() : 0);
-        result = 31 * result + (xlbq != null ? xlbq.hashCode() : 0);
+        result = 31 * result + xlbq;
         result = 31 * result + (con6 != null ? con6.hashCode() : 0);
-        result = 31 * result + (sxzb != null ? sxzb.hashCode() : 0);
+        result = 31 * result + sxzb;
         result = 31 * result + (con7 != null ? con7.hashCode() : 0);
-        result = 31 * result + (fxzb != null ? fxzb.hashCode() : 0);
+        result = 31 * result + fxzb;
         result = 31 * result + (con8 != null ? con8.hashCode() : 0);
-        result = 31 * result + (jjxzb != null ? jjxzb.hashCode() : 0);
+        result = 31 * result + jjxzb;
         result = 31 * result + (con9 != null ? con9.hashCode() : 0);
-        result = 31 * result + (fc != null ? fc.hashCode() : 0);
+        result = 31 * result + fc;
         result = 31 * result + (con10 != null ? con10.hashCode() : 0);
         result = 31 * result + (data != null ? data.hashCode() : 0);
-        result = 31 * result + (pr != null ? pr.hashCode() : 0);
-        result = 31 * result + (qrs != null ? qrs.hashCode() : 0);
-        result = 31 * result + (qt != null ? qt.hashCode() : 0);
-        result = 31 * result + (qtc != null ? qtc.hashCode() : 0);
-        result = 31 * result + (p != null ? p.hashCode() : 0);
+        result = 31 * result + pr;
+        result = 31 * result + qrs;
+        result = 31 * result + qt;
+        result = 31 * result + qtc;
+        result = 31 * result + p;
         return result;
     }
 
@@ -422,4 +420,5 @@ public class Info {
     public void setUser(User user) {
         this.user = user;
     }
+
 }

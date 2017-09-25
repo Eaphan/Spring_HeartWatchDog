@@ -20,7 +20,7 @@ public class FriendRequest {
     private byte status;
     private String information;
     private User request_user;
-    private User toreceived_users;
+    private User toreceived_user;
     public FriendRequest(){
 
     }
@@ -114,11 +114,11 @@ public class FriendRequest {
 
     @ManyToOne
     @JoinColumn(name = "reid", referencedColumnName = "uid", nullable = false)
-    public User getToreceived_users() {
-        return toreceived_users;
+    public User getToreceived_user() {
+        return toreceived_user;
     }
 
-    public void setToreceived_users(User toreceived_users) {
-        this.toreceived_users = toreceived_users;
+    public void setToreceived_user(User toreceived_user) {
+        this.toreceived_user = toreceived_user;
     }
 }

@@ -9,7 +9,9 @@
     <import resource="classpath:xingou-dao.xml"/>
     <!--服务层配置-->
     <import resource="classpath:xingou-service.xml"/>
-    <bean id="cacheManager"
-          class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean"
-          p:configLocation="classpath:ehcache.xml"/>
+
+    <!--配置openSessionInViewInterceptor-->
+    <!--<bean id="openSessionInViewInterceptor" class="org.springframework.orm.hibernate4.support.OpenSessionInViewInterceptor">-->
+        <!--<property name="sessionFactory" ref="sessionFactory"/>-->
+    <!--</bean>-->
 </beans>

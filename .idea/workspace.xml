@@ -45,23 +45,113 @@
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Spring_HeartWatchDog" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/controller/LoginController.java">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="104" column="39" lean-forward="false" selection-start-line="104" selection-start-column="39" selection-end-line="104" selection-end-column="39" />
+            <state relative-caret-position="309">
+              <caret line="95" column="86" lean-forward="true" selection-start-line="95" selection-start-column="86" selection-end-line="95" selection-end-column="86" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/controller/MainController.java">
+      <file leaf-file-name="开发文档.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/开发文档.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="385">
+                <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="springMVC.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/springMVC.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+            <state relative-caret-position="0">
+              <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xingou-service.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/xingou-service.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xingou-dao.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/xingou-dao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="44" column="19" lean-forward="true" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/dao/BaseDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1081">
+              <caret line="47" column="110" lean-forward="false" selection-start-line="47" selection-start-column="110" selection-end-line="47" selection-end-column="110" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/dao/impl/BaseDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RelaController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/controller/RelaController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/dao/impl/UserDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/entity/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="195" column="15" lean-forward="false" selection-start-line="195" selection-start-column="15" selection-end-line="195" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -73,49 +163,50 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find />
-      <find>aop</find>
-      <find>eache</find>
-      <find>each</find>
-      <find>eac</find>
-      <find>ea</find>
-      <find>e</find>
-      <find>eh</find>
-      <find>ehca</find>
-      <find>ehcache</find>
-      <find>user_type</find>
-      <find>usertype</find>
-      <find>uname</find>
-      <find>nullable</find>
-      <find>1234</find>
-      <find>System.out.print</find>
-      <find>select</find>
-      <find>from user</find>
-      <find>ereotype.Contro</find>
-      <find>&lt;tx:annotation-driven transaction-manager=&quot;transactionManager&quot;/&gt;</find>
-      <find>ERROR</find>
-      <find>123456</find>
-      <find>choose_url</find>
-      <find>doctor</find>
-      <find>user</find>
-      <find>userinfo</find>
-      <find>doctorinfo</find>
-      <find>doctorinfo#1</find>
+      <find>vc:annotation-dri</find>
+      <find>tx:anno</find>
+      <find>orm</find>
+      <find>transactionAttributeSource</find>
+      <find>s</find>
+      <find>se</find>
+      <find>sess</find>
+      <find>session</find>
+      <find>sessionF</find>
+      <find>sessionFa</find>
+      <find>sessionFac</find>
+      <find>sessionFact</find>
+      <find>sessionFactor</find>
+      <find>sessionFactory</find>
+      <find>u</find>
+      <find>user.</find>
+      <find>user.infos</find>
+      <find>a</find>
+      <find>ann</find>
+      <find>annot</find>
+      <find>annotation</find>
+      <find>annotation-</find>
+      <find>annotation-d</find>
+      <find>annotation-dr</find>
+      <find>annotation-dri</find>
+      <find>annotation-driv</find>
+      <find>annotation-drive</find>
+      <find>annotation-driven</find>
       <find>error</find>
-      <find>onetoone</find>
+      <find>dispatch</find>
     </findStrings>
     <replaceStrings>
       <replace>otime3</replace>
       <replace>/images</replace>
       <replace>..</replace>
-      <replace>int</replace>
       <replace>/css</replace>
       <replace>&quot;/images</replace>
       <replace>&quot;/css</replace>
@@ -127,8 +218,10 @@
       <replace>serByInfo</replace>
       <replace>info</replace>
       <replace>userinfo</replace>
-      <replace>user</replace>
       <replace>doctor</replace>
+      <replace>int</replace>
+      <replace>user</replace>
+      <replace />
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -142,57 +235,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/PiCar.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/maps/readme.txt" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/scripts.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/register.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xingou/entity/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xingou/entity/Docterinfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xingou/dao/AnotherBaseDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xingou/dao/BaseDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xingou/entity/FriendRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xingou/entity/Examination.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xingou/entity/File.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xingou/entity/Info.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xingou/entity/Info24.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xingou/entity/Medicalhistory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xingou/entity/Suggestion.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/开发sql.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xingou/entity/Userinfo.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/prototype.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/module.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/module1.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/enterimage.jsp" />
-        <option value="dbtable:/2a2e3244/a55b5551-01df-4282-9c92-ff8171e91d6c/spring_xingou.user" />
-        <option value="$PROJECT_DIR$/src/main/resources/xingou-dao.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/springMVC.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/xingou-service.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xingou/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xingou/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xingou/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xingou/dao/impl/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xingou/service/impl/DoctorServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xingou/service/DoctorService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xingou/dao/DoctorDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xingou/dao/impl/DoctorDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xingou/dao/impl/BaseDaoImpl.java" />
         <option value="dbtable:/2a2e3244/a55b5551-01df-4282-9c92-ff8171e91d6c/spring_xingou.userinfo" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xingou/entity/User.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/user/homepage.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/xingou/entity/Doctor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xingou/entity/Doctorinfo.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/doctor/homepage.jsp" />
-        <option value="$PROJECT_DIR$/开发文档.md" />
+        <option value="$PROJECT_DIR$/src/main/resources/开发sql.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xingou/entity/File.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xingou/entity/Urine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xingou/dao/InfoDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xingou/dao/impl/BaseDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xingou/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xingou/controller/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xingou/dao/impl/InfoDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xingou/tools/MyTools.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xingou/entity/Info.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/user/infosingle1.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xingou/service/InfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/user/homepage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/user/infolist.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/user/sidebar.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xingou/service/impl/RelaService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xingou/service/RelaService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xingou/service/impl/RelaServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/user/infotime.jsp" />
+        <option value="dbtable:/2a2e3244/a55b5551-01df-4282-9c92-ff8171e91d6c/spring_xingou.user" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xingou/controller/InfoController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xingou/entity/FriendRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xingou/service/impl/DoctorServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xingou/service/impl/InfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/开发文档.md" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/springMVC.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xingou/dao/impl/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xingou/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/xingou-service.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/user/relalist.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xingou/controller/RelaController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xingou/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/user/infosingle.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/xingou-dao.xml" />
       </list>
     </option>
   </component>
@@ -219,10 +312,6 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="Spring_HeartWatchDog Maven Webapp" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Dependencies" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
@@ -257,23 +346,12 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
         </PATH_ELEMENT>
       </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Spring_HeartWatchDog Maven Webapp" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="84" />
-    <option name="y" value="8" />
-    <option name="width" value="1783" />
-    <option name="height" value="1009" />
+    <option name="x" value="691" />
+    <option name="width" value="1267" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -290,9 +368,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -302,6 +377,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Spring_HeartWatchDog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spring_HeartWatchDog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spring_HeartWatchDog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -408,36 +497,6 @@
               <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doctor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spring_HeartWatchDog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spring_HeartWatchDog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -458,6 +517,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spring_HeartWatchDog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spring_HeartWatchDog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xingou" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -651,6 +736,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -659,33 +747,36 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring4X/wangpan/chapter18" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="JPA.DatabaseSchemaImportDialog" value="a55b5551-01df-4282-9c92-ff8171e91d6c" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xingou.service.impl" />
+      <recent name="com.xingou.tools" />
+      <recent name="com.xingou.dao.impl" />
+      <recent name="com.xingou.dao" />
+      <recent name="com.xingou.controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ideafiles\Spring_HeartWatchDog\src\main\java\com\xingou\service" />
+      <recent name="E:\ideafiles\Spring_HeartWatchDog\src\main\java\com\xingou\service\impl" />
+      <recent name="E:\ideafiles\Spring_HeartWatchDog\src\main\webapp\views\user" />
+      <recent name="E:\ideafiles\Spring_HeartWatchDog\src\main\webapp" />
+      <recent name="E:\ideafiles\Spring_HeartWatchDog\src\main\resources" />
+    </key>
     <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="" />
       <recent name="com.xingou.entity" />
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\ideafiles\Spring_HeartWatchDog\src\main\webapp\views" />
-      <recent name="E:\ideafiles\Spring_HeartWatchDog\src\main\webapp\views\doctor" />
-      <recent name="E:\ideafiles\Spring_HeartWatchDog\src\main\resources" />
-      <recent name="E:\ideafiles\Spring_HeartWatchDog\src\main\webapp\WEB-INF\content" />
-      <recent name="E:\ideafiles\Spring_HeartWatchDog\src\main\webapp" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.xingou.service.impl" />
-      <recent name="com.xingou.service" />
-      <recent name="com.xingou.dao.impl" />
-      <recent name="com.xingou.dao" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\ideafiles\Spring_HeartWatchDog\src\main\webapp\views\user" />
-      <recent name="E:\ideafiles\Spring_HeartWatchDog\src\main\webapp" />
+      <recent name="E:\ideafiles\Spring_HeartWatchDog\src\main\webapp\images" />
+      <recent name="E:\ideafiles\Spring_HeartWatchDog\src\main\webapp\views\doctor" />
       <recent name="E:\ideafiles\Spring_HeartWatchDog\src\main\resources" />
     </key>
   </component>
@@ -1134,7 +1225,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Spring_HeartWatchDog_2" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Spring_HeartWatchDog_3" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -1143,10 +1234,10 @@
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="8270" />
+        <option name="DEBUG_PORT" value="12110" />
       </RunnerSettings>
       <RunnerSettings RunnerId="JRebel Debug">
-        <option name="DEBUG_PORT" value="8271" />
+        <option name="DEBUG_PORT" value="12111" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -1276,12 +1367,18 @@
       <workItem from="1505448247313" duration="3768000" />
       <workItem from="1505872496174" duration="5497000" />
       <workItem from="1505899557144" duration="704000" />
-      <workItem from="1505956301465" duration="15265000" />
+      <workItem from="1505956301465" duration="41281000" />
+      <workItem from="1506130300200" duration="725000" />
+      <workItem from="1506131470761" duration="29371000" />
+      <workItem from="1506214803889" duration="20697000" />
+      <workItem from="1506252552595" duration="3337000" />
+      <workItem from="1506258620189" duration="4534000" />
+      <workItem from="1506301449398" duration="18442000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246772000" />
+    <option name="totallyTimeSpent" value="349894000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1293,47 +1390,46 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="84" y="8" width="1783" height="1009" extended-state="0" />
-    <editor active="true" />
+    <frame x="691" y="0" width="1267" height="1038" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40672073" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10496894" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40664375" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15257049" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.093120806" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1505174" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32760596" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24886878" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908458" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875144" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3601896" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792583" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908458" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32302406" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32646048" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875144" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel remote servers log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20572451" sideWeight="0.30140188" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19016969" sideWeight="0.52006984" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23321033" sideWeight="0.2516129" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26152557" sideWeight="0.5919056" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.112693496" sideWeight="0.42931938" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15692934" sideWeight="0.4799302" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271028" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3248848" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13210613" sideWeight="0.40809444" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24911453" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3259346" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25266904" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1343,13 +1439,13 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40672073" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10496894" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22679693" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.093120806" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15910678" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1362,13 +1458,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43246445" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792583" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19500594" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32699168" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908458" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel remote servers log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20572451" sideWeight="0.30140188" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3259346" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17617449" sideWeight="0.52006984" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23321033" sideWeight="0.2516129" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25266904" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24180791" sideWeight="0.7483871" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.112693496" sideWeight="0.42931938" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15692934" sideWeight="0.4799302" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271028" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1384,7 +1480,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1393,312 +1489,131 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/javax/persistence/Inheritance.class">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/doctor/homepage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/entity/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="35" column="29" lean-forward="false" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/entity/Info24.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/entity/FriendRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-398">
-          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/entity/Info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="57" column="29" lean-forward="false" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/entity/Examination.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3654">
-          <caret line="169" column="0" lean-forward="false" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/entity/Medicalhistory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/phrase.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="167" column="16" lean-forward="false" selection-start-line="167" selection-start-column="16" selection-end-line="167" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/font-awesome.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="3" column="29275" lean-forward="false" selection-start-line="3" selection-start-column="29275" selection-end-line="3" selection-end-column="29275" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/entity/Suggestion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="70" column="24" lean-forward="true" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/prototype.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-67">
-          <caret line="974" column="12" lean-forward="true" selection-start-line="974" selection-start-column="12" selection-end-line="974" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/module.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="137" column="24" lean-forward="false" selection-start-line="137" selection-start-column="24" selection-end-line="137" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/mchange/c3p0/0.9.5.1/c3p0-0.9.5.1.jar!/com/mchange/v2/c3p0/impl/NewPooledConnection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="143" column="0" lean-forward="false" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/module1.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="53" column="20" lean-forward="false" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/login_pre.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/enterimage.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/controller/RegisterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ehcache.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/4.2.6.RELEASE/spring-orm-4.2.6.RELEASE.jar!/org/springframework/orm/hibernate4/SpringSessionContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/xingou-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/dao/BaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/开发sql.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="72" column="24" lean-forward="false" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
+        <state relative-caret-position="461">
+          <caret line="99" column="9" lean-forward="true" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="182">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/dao/UserDao.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar!/com/google/gson/JsonArray.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding />
+        <state relative-caret-position="115">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/service/impl/UserServiceImpl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar!/javax/servlet/http/HttpServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="330">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/service/DoctorService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/dao/InfoDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        <state relative-caret-position="204">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/dao/DoctorDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/tools/MyTools.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/springMVC.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/entity/Suggestion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="-809">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/user/infosingle1.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/开发sql.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7659">
+          <caret line="333" column="29" lean-forward="false" selection-start-line="333" selection-start-column="29" selection-end-line="333" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/2a2e3244/a55b5551-01df-4282-9c92-ff8171e91d6c/spring_xingou.info">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3243">
+          <caret line="141" column="59" lean-forward="false" selection-start-line="141" selection-start-column="12" selection-end-line="141" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/views/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1426">
-          <caret line="62" column="62" lean-forward="false" selection-start-line="62" selection-start-column="62" selection-end-line="62" selection-end-column="62" />
+        <state relative-caret-position="2369">
+          <caret line="103" column="36" lean-forward="false" selection-start-line="103" selection-start-column="36" selection-end-line="103" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/service/impl/DoctorServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/user/infolist.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        <state relative-caret-position="202">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/service/InfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/service/impl/RelaServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/service/RelaService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/user/infotime.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/general_elements.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="280" column="14" lean-forward="false" selection-start-line="280" selection-start-column="14" selection-end-line="280" selection-end-column="14" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#585#586#0" expanded="false" />
-            <element signature="e#643#644#0" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/dao/impl/UserDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/user/sidebar.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/dao/impl/DoctorDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1610">
-          <caret line="70" column="18" lean-forward="false" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/2a2e3244/a55b5551-01df-4282-9c92-ff8171e91d6c/spring_xingou.user_rela">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/2a2e3244/a55b5551-01df-4282-9c92-ff8171e91d6c/spring_xingou.userinfo">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/dao/impl/BaseDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#769#770#0" expanded="false" />
-            <element signature="e#821#822#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/2a2e3244/a55b5551-01df-4282-9c92-ff8171e91d6c/spring_xingou.doctorinfo">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="322">
+          <caret line="29" column="41" lean-forward="false" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -1707,7 +1622,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -1716,336 +1630,311 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/entity/Userinfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9461">
-          <caret line="689" column="0" lean-forward="false" selection-start-line="689" selection-start-column="0" selection-end-line="689" selection-end-column="0" />
-          <folding>
-            <element signature="e#1932#1933#0" expanded="false" />
-            <element signature="e#1957#1958#0" expanded="false" />
-            <element signature="e#1994#1995#0" expanded="false" />
-            <element signature="e#2022#2023#0" expanded="false" />
-            <element signature="e#2324#2325#0" expanded="false" />
-            <element signature="e#2353#2354#0" expanded="false" />
-            <element signature="e#2397#2398#0" expanded="false" />
-            <element signature="e#2433#2434#0" expanded="false" />
-            <element signature="e#2536#2537#0" expanded="false" />
-            <element signature="e#2565#2566#0" expanded="false" />
-            <element signature="e#2609#2610#0" expanded="false" />
-            <element signature="e#2645#2646#0" expanded="false" />
-            <element signature="e#2747#2748#0" expanded="false" />
-            <element signature="e#2776#2777#0" expanded="false" />
-            <element signature="e#2820#2821#0" expanded="false" />
-            <element signature="e#2856#2857#0" expanded="false" />
-            <element signature="e#2953#2954#0" expanded="false" />
-            <element signature="e#2979#2980#0" expanded="false" />
-            <element signature="e#3017#3018#0" expanded="false" />
-            <element signature="e#3047#3048#0" expanded="false" />
-            <element signature="e#3146#3147#0" expanded="false" />
-            <element signature="e#3173#3174#0" expanded="false" />
-            <element signature="e#3213#3214#0" expanded="false" />
-            <element signature="e#3245#3246#0" expanded="false" />
-            <element signature="e#3344#3345#0" expanded="false" />
-            <element signature="e#3371#3372#0" expanded="false" />
-            <element signature="e#3411#3412#0" expanded="false" />
-            <element signature="e#3443#3444#0" expanded="false" />
-            <element signature="e#3555#3556#0" expanded="false" />
-            <element signature="e#3589#3590#0" expanded="false" />
-            <element signature="e#3643#3644#0" expanded="false" />
-            <element signature="e#3689#3690#0" expanded="false" />
-            <element signature="e#3794#3795#0" expanded="false" />
-            <element signature="e#3824#3825#0" expanded="false" />
-            <element signature="e#3870#3871#0" expanded="false" />
-            <element signature="e#3908#3909#0" expanded="false" />
-            <element signature="e#4005#4006#0" expanded="false" />
-            <element signature="e#4031#4032#0" expanded="false" />
-            <element signature="e#4069#4070#0" expanded="false" />
-            <element signature="e#4099#4100#0" expanded="false" />
-            <element signature="e#4196#4197#0" expanded="false" />
-            <element signature="e#4222#4223#0" expanded="false" />
-            <element signature="e#4260#4261#0" expanded="false" />
-            <element signature="e#4290#4291#0" expanded="false" />
-            <element signature="e#4390#4391#0" expanded="false" />
-            <element signature="e#4418#4419#0" expanded="false" />
-            <element signature="e#4460#4461#0" expanded="false" />
-            <element signature="e#4494#4495#0" expanded="false" />
-            <element signature="e#4602#4603#0" expanded="false" />
-            <element signature="e#4634#4635#0" expanded="false" />
-            <element signature="e#4684#4685#0" expanded="false" />
-            <element signature="e#4726#4727#0" expanded="false" />
-            <element signature="e#4840#4841#0" expanded="false" />
-            <element signature="e#4875#4876#0" expanded="false" />
-            <element signature="e#4931#4932#0" expanded="false" />
-            <element signature="e#4979#4980#0" expanded="false" />
-            <element signature="e#5087#5088#0" expanded="false" />
-            <element signature="e#5119#5120#0" expanded="false" />
-            <element signature="e#5169#5170#0" expanded="false" />
-            <element signature="e#5211#5212#0" expanded="false" />
-            <element signature="e#5316#5317#0" expanded="false" />
-            <element signature="e#5346#5347#0" expanded="false" />
-            <element signature="e#5392#5393#0" expanded="false" />
-            <element signature="e#5430#5431#0" expanded="false" />
-            <element signature="e#5537#5538#0" expanded="false" />
-            <element signature="e#5568#5569#0" expanded="false" />
-            <element signature="e#5616#5617#0" expanded="false" />
-            <element signature="e#5656#5657#0" expanded="false" />
-            <element signature="e#5763#5764#0" expanded="false" />
-            <element signature="e#5794#5795#0" expanded="false" />
-            <element signature="e#5842#5843#0" expanded="false" />
-            <element signature="e#5882#5883#0" expanded="false" />
-            <element signature="e#5989#5990#0" expanded="false" />
-            <element signature="e#6020#6021#0" expanded="false" />
-            <element signature="e#6068#6069#0" expanded="false" />
-            <element signature="e#6108#6109#0" expanded="false" />
-            <element signature="e#6222#6223#0" expanded="false" />
-            <element signature="e#6256#6257#0" expanded="false" />
-            <element signature="e#6310#6311#0" expanded="false" />
-            <element signature="e#6356#6357#0" expanded="false" />
-            <element signature="e#6459#6460#0" expanded="false" />
-            <element signature="e#6488#6489#0" expanded="false" />
-            <element signature="e#6532#6533#0" expanded="false" />
-            <element signature="e#6568#6569#0" expanded="false" />
-            <element signature="e#6671#6672#0" expanded="false" />
-            <element signature="e#6700#6701#0" expanded="false" />
-            <element signature="e#6744#6745#0" expanded="false" />
-            <element signature="e#6780#6781#0" expanded="false" />
-            <element signature="e#6883#6884#0" expanded="false" />
-            <element signature="e#6912#6913#0" expanded="false" />
-            <element signature="e#6956#6957#0" expanded="false" />
-            <element signature="e#6992#6993#0" expanded="false" />
-            <element signature="e#7103#7104#0" expanded="false" />
-            <element signature="e#7136#7137#0" expanded="false" />
-            <element signature="e#7188#7189#0" expanded="false" />
-            <element signature="e#7232#7233#0" expanded="false" />
-            <element signature="e#7343#7344#0" expanded="false" />
-            <element signature="e#7376#7377#0" expanded="false" />
-            <element signature="e#7428#7429#0" expanded="false" />
-            <element signature="e#7472#7473#0" expanded="false" />
-            <element signature="e#7583#7584#0" expanded="false" />
-            <element signature="e#7616#7617#0" expanded="false" />
-            <element signature="e#7668#7669#0" expanded="false" />
-            <element signature="e#7712#7713#0" expanded="false" />
-            <element signature="e#7830#7831#0" expanded="false" />
-            <element signature="e#7866#7867#0" expanded="false" />
-            <element signature="e#7924#7925#0" expanded="false" />
-            <element signature="e#7974#7975#0" expanded="false" />
-            <element signature="e#8077#8078#0" expanded="false" />
-            <element signature="e#8106#8107#0" expanded="false" />
-            <element signature="e#8150#8151#0" expanded="false" />
-            <element signature="e#8186#8187#0" expanded="false" />
-            <element signature="e#8289#8290#0" expanded="false" />
-            <element signature="e#8318#8319#0" expanded="false" />
-            <element signature="e#8362#8363#0" expanded="false" />
-            <element signature="e#8398#8399#0" expanded="false" />
-            <element signature="e#8501#8502#0" expanded="false" />
-            <element signature="e#8530#8531#0" expanded="false" />
-            <element signature="e#8574#8575#0" expanded="false" />
-            <element signature="e#8610#8611#0" expanded="false" />
-            <element signature="e#8719#8720#0" expanded="false" />
-            <element signature="e#8751#8752#0" expanded="false" />
-            <element signature="e#8801#8802#0" expanded="false" />
-            <element signature="e#8843#8844#0" expanded="false" />
-            <element signature="e#8952#8953#0" expanded="false" />
-            <element signature="e#8984#8985#0" expanded="false" />
-            <element signature="e#9034#9035#0" expanded="false" />
-            <element signature="e#9076#9077#0" expanded="false" />
-            <element signature="e#9185#9186#0" expanded="false" />
-            <element signature="e#9217#9218#0" expanded="false" />
-            <element signature="e#9267#9268#0" expanded="false" />
-            <element signature="e#9309#9310#0" expanded="false" />
-            <element signature="e#9418#9419#0" expanded="false" />
-            <element signature="e#9450#9451#0" expanded="false" />
-            <element signature="e#9500#9501#0" expanded="false" />
-            <element signature="e#9542#9543#0" expanded="false" />
-            <element signature="e#9659#9660#0" expanded="false" />
-            <element signature="e#9695#9696#0" expanded="false" />
-            <element signature="e#9753#9754#0" expanded="false" />
-            <element signature="e#9803#9804#0" expanded="false" />
-            <element signature="e#9905#9906#0" expanded="false" />
-            <element signature="e#9934#9935#0" expanded="false" />
-            <element signature="e#9978#9979#0" expanded="false" />
-            <element signature="e#10014#10015#0" expanded="false" />
-            <element signature="e#10117#10118#0" expanded="false" />
-            <element signature="e#10146#10147#0" expanded="false" />
-            <element signature="e#10190#10191#0" expanded="false" />
-            <element signature="e#10226#10227#0" expanded="false" />
-            <element signature="e#10330#10331#0" expanded="false" />
-            <element signature="e#10360#10361#0" expanded="false" />
-            <element signature="e#10406#10407#0" expanded="false" />
-            <element signature="e#10444#10445#0" expanded="false" />
-            <element signature="e#10550#10551#0" expanded="false" />
-            <element signature="e#10581#10582#0" expanded="false" />
-            <element signature="e#10629#10630#0" expanded="false" />
-            <element signature="e#10669#10670#0" expanded="false" />
-            <element signature="e#10781#10782#0" expanded="false" />
-            <element signature="e#10815#10816#0" expanded="false" />
-            <element signature="e#10869#10870#0" expanded="false" />
-            <element signature="e#10915#10916#0" expanded="false" />
-            <element signature="e#11027#11028#0" expanded="false" />
-            <element signature="e#11061#11062#0" expanded="false" />
-            <element signature="e#11115#11116#0" expanded="false" />
-            <element signature="e#11161#11162#0" expanded="false" />
-            <element signature="e#11265#11266#0" expanded="false" />
-            <element signature="e#11295#11296#0" expanded="false" />
-            <element signature="e#11341#11342#0" expanded="false" />
-            <element signature="e#11379#11380#0" expanded="false" />
-            <element signature="e#11491#11492#0" expanded="false" />
-            <element signature="e#11525#11526#0" expanded="false" />
-            <element signature="e#11579#11580#0" expanded="false" />
-            <element signature="e#11625#11626#0" expanded="false" />
-            <element signature="e#11731#11732#0" expanded="false" />
-            <element signature="e#11762#11763#0" expanded="false" />
-            <element signature="e#11810#11811#0" expanded="false" />
-            <element signature="e#11850#11851#0" expanded="false" />
-            <element signature="e#11962#11963#0" expanded="false" />
-            <element signature="e#11996#11997#0" expanded="false" />
-            <element signature="e#12050#12051#0" expanded="false" />
-            <element signature="e#12096#12097#0" expanded="false" />
-            <element signature="e#12204#12205#0" expanded="false" />
-            <element signature="e#12236#12237#0" expanded="false" />
-            <element signature="e#12286#12287#0" expanded="false" />
-            <element signature="e#12328#12329#0" expanded="false" />
-            <element signature="e#12440#12441#0" expanded="false" />
-            <element signature="e#12474#12475#0" expanded="false" />
-            <element signature="e#12528#12529#0" expanded="false" />
-            <element signature="e#12574#12575#0" expanded="false" />
-            <element signature="e#12688#12689#0" expanded="false" />
-            <element signature="e#12723#12724#0" expanded="false" />
-            <element signature="e#12779#12780#0" expanded="false" />
-            <element signature="e#12827#12828#0" expanded="false" />
-            <element signature="e#22239#22240#0" expanded="false" />
-            <element signature="e#22266#22267#0" expanded="false" />
-            <element signature="e#22304#22305#0" expanded="false" />
-            <element signature="e#22336#22337#0" expanded="false" />
-          </folding>
+    <entry file="dbDummy://dbtable:/2a2e3244/a55b5551-01df-4282-9c92-ff8171e91d6c/spring_xingou.user_rela">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/xingou-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="95" lean-forward="false" selection-start-line="26" selection-start-column="72" selection-end-line="26" selection-end-column="95" />
-          <folding>
-            <element signature="n#bean#1;n#beans#0;n#!!top" expanded="false" />
-          </folding>
+    <entry file="dbDummy://dbtable:/2a2e3244/a55b5551-01df-4282-9c92-ff8171e91d6c/spring_xingou.friend_request">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/entity/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/entity/FriendRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="134" column="14" lean-forward="false" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="14" />
-          <folding>
-            <element signature="e#1282#1283#0" expanded="false" />
-            <element signature="e#1308#1309#0" expanded="false" />
-            <element signature="e#1347#1348#0" expanded="false" />
-            <element signature="e#1377#1378#0" expanded="false" />
-            <element signature="e#1448#1449#0" expanded="false" />
-            <element signature="e#1476#1477#0" expanded="false" />
-            <element signature="e#1518#1519#0" expanded="false" />
-            <element signature="e#1552#1553#0" expanded="false" />
-            <element signature="e#1625#1626#0" expanded="false" />
-            <element signature="e#1654#1655#0" expanded="false" />
-            <element signature="e#1698#1699#0" expanded="false" />
-            <element signature="e#1734#1735#0" expanded="false" />
-            <element signature="e#1805#1806#0" expanded="false" />
-            <element signature="e#1833#1834#0" expanded="false" />
-            <element signature="e#1875#1876#0" expanded="false" />
-            <element signature="e#1909#1910#0" expanded="false" />
-            <element signature="e#1980#1981#0" expanded="false" />
-            <element signature="e#2008#2009#0" expanded="false" />
-            <element signature="e#2050#2051#0" expanded="false" />
-            <element signature="e#2084#2085#0" expanded="false" />
-            <element signature="e#2163#2164#0" expanded="false" />
-            <element signature="e#2195#2196#0" expanded="false" />
-            <element signature="e#2245#2246#0" expanded="false" />
-            <element signature="e#2287#2288#0" expanded="false" />
-            <element signature="e#3616#3617#0" expanded="false" />
-            <element signature="e#3647#3648#0" expanded="false" />
-            <element signature="e#3696#3697#0" expanded="false" />
-            <element signature="e#3736#3737#0" expanded="false" />
-            <element signature="e#3819#3820#0" expanded="false" />
-            <element signature="e#3854#3855#0" expanded="false" />
-            <element signature="e#3920#3921#0" expanded="false" />
-            <element signature="e#3963#3964#0" expanded="false" />
-            <element signature="e#4032#4033#0" expanded="false" />
-            <element signature="e#4060#4061#0" expanded="false" />
-            <element signature="e#4105#4106#0" expanded="false" />
-            <element signature="e#4139#4140#0" expanded="false" />
-            <element signature="e#4234#4235#0" expanded="false" />
-            <element signature="e#4272#4273#0" expanded="false" />
-            <element signature="e#4344#4345#0" expanded="false" />
-            <element signature="e#4398#4399#0" expanded="false" />
-            <element signature="e#4501#4502#0" expanded="false" />
-            <element signature="e#4542#4543#0" expanded="false" />
-            <element signature="e#4970#4971#0" expanded="false" />
-            <element signature="e#5000#5001#0" expanded="false" />
-            <element signature="e#5049#5050#0" expanded="false" />
-            <element signature="e#5087#5088#0" expanded="false" />
-            <element signature="e#5155#5156#0" expanded="false" />
-            <element signature="e#5183#5184#0" expanded="false" />
-            <element signature="e#5228#5229#0" expanded="false" />
-            <element signature="e#5262#5263#0" expanded="false" />
-            <element signature="e#5334#5335#0" expanded="false" />
-            <element signature="e#5364#5365#0" expanded="false" />
-            <element signature="e#5415#5416#0" expanded="false" />
-            <element signature="e#5453#5454#0" expanded="false" />
-            <element signature="e#5541#5542#0" expanded="false" />
-            <element signature="e#5579#5580#0" expanded="false" />
-            <element signature="e#5654#5655#0" expanded="false" />
-            <element signature="e#5708#5709#0" expanded="false" />
-            <element signature="e#5788#5789#0" expanded="false" />
-            <element signature="e#5822#5823#0" expanded="false" />
-            <element signature="e#5885#5886#0" expanded="false" />
-            <element signature="e#5931#5932#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/entity/Doctor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/entity/Doctorinfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding>
-            <element signature="e#684#685#0" expanded="false" />
-            <element signature="e#709#710#0" expanded="false" />
-            <element signature="e#745#746#0" expanded="false" />
-            <element signature="e#773#774#0" expanded="false" />
-            <element signature="e#875#876#0" expanded="false" />
-            <element signature="e#904#905#0" expanded="false" />
-            <element signature="e#947#948#0" expanded="false" />
-            <element signature="e#983#984#0" expanded="false" />
-            <element signature="e#1085#1086#0" expanded="false" />
-            <element signature="e#1114#1115#0" expanded="false" />
-            <element signature="e#1157#1158#0" expanded="false" />
-            <element signature="e#1193#1194#0" expanded="false" />
-            <element signature="e#1294#1295#0" expanded="false" />
-            <element signature="e#1323#1324#0" expanded="false" />
-            <element signature="e#1366#1367#0" expanded="false" />
-            <element signature="e#1402#1403#0" expanded="false" />
-            <element signature="e#1508#1509#0" expanded="false" />
-            <element signature="e#1539#1540#0" expanded="false" />
-            <element signature="e#1586#1587#0" expanded="false" />
-            <element signature="e#1626#1627#0" expanded="false" />
-            <element signature="method#hashCode#0;class#Doctorinfo#0" expanded="false" />
-            <element signature="e#2931#2932#0" expanded="false" />
-            <element signature="e#2960#2961#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="393">
+          <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/views/user/homepage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        <state relative-caret-position="966">
+          <caret line="42" column="19" lean-forward="false" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/controller/InfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="99" column="51" lean-forward="false" selection-start-line="99" selection-start-column="51" selection-end-line="99" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/entity/Info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2573">
+          <caret line="262" column="40" lean-forward="false" selection-start-line="262" selection-start-column="25" selection-end-line="262" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1219#1220#0" expanded="false" />
+            <element signature="e#1244#1245#0" expanded="false" />
+            <element signature="e#1281#1282#0" expanded="false" />
+            <element signature="e#1309#1310#0" expanded="false" />
+            <element signature="e#1409#1410#0" expanded="false" />
+            <element signature="e#1436#1437#0" expanded="false" />
+            <element signature="e#1476#1477#0" expanded="false" />
+            <element signature="e#1508#1509#0" expanded="false" />
+            <element signature="e#1593#1594#0" expanded="false" />
+            <element signature="e#1621#1622#0" expanded="false" />
+            <element signature="e#1660#1661#0" expanded="false" />
+            <element signature="e#1694#1695#0" expanded="false" />
+            <element signature="e#1790#1791#0" expanded="false" />
+            <element signature="e#1817#1818#0" expanded="false" />
+            <element signature="e#1854#1855#0" expanded="false" />
+            <element signature="e#1886#1887#0" expanded="false" />
+            <element signature="e#1984#1985#0" expanded="false" />
+            <element signature="e#2011#2012#0" expanded="false" />
+            <element signature="e#2051#2052#0" expanded="false" />
+            <element signature="e#2083#2084#0" expanded="false" />
+            <element signature="e#2183#2184#0" expanded="false" />
+            <element signature="e#2212#2213#0" expanded="false" />
+            <element signature="e#2253#2254#0" expanded="false" />
+            <element signature="e#2289#2290#0" expanded="false" />
+            <element signature="e#2387#2388#0" expanded="false" />
+            <element signature="e#2414#2415#0" expanded="false" />
+            <element signature="e#2454#2455#0" expanded="false" />
+            <element signature="e#2486#2487#0" expanded="false" />
+            <element signature="e#2582#2583#0" expanded="false" />
+            <element signature="e#2609#2610#0" expanded="false" />
+            <element signature="e#2646#2647#0" expanded="false" />
+            <element signature="e#2678#2679#0" expanded="false" />
+            <element signature="e#2776#2777#0" expanded="false" />
+            <element signature="e#2803#2804#0" expanded="false" />
+            <element signature="e#2843#2844#0" expanded="false" />
+            <element signature="e#2875#2876#0" expanded="false" />
+            <element signature="e#2971#2972#0" expanded="false" />
+            <element signature="e#2998#2999#0" expanded="false" />
+            <element signature="e#3035#3036#0" expanded="false" />
+            <element signature="e#3067#3068#0" expanded="false" />
+            <element signature="e#3165#3166#0" expanded="false" />
+            <element signature="e#3192#3193#0" expanded="false" />
+            <element signature="e#3232#3233#0" expanded="false" />
+            <element signature="e#3264#3265#0" expanded="false" />
+            <element signature="e#3360#3361#0" expanded="false" />
+            <element signature="e#3387#3388#0" expanded="false" />
+            <element signature="e#3424#3425#0" expanded="false" />
+            <element signature="e#3456#3457#0" expanded="false" />
+            <element signature="e#3554#3555#0" expanded="false" />
+            <element signature="e#3581#3582#0" expanded="false" />
+            <element signature="e#3621#3622#0" expanded="false" />
+            <element signature="e#3653#3654#0" expanded="false" />
+            <element signature="e#3749#3750#0" expanded="false" />
+            <element signature="e#3776#3777#0" expanded="false" />
+            <element signature="e#3813#3814#0" expanded="false" />
+            <element signature="e#3845#3846#0" expanded="false" />
+            <element signature="e#3943#3944#0" expanded="false" />
+            <element signature="e#3970#3971#0" expanded="false" />
+            <element signature="e#4010#4011#0" expanded="false" />
+            <element signature="e#4042#4043#0" expanded="false" />
+            <element signature="e#4138#4139#0" expanded="false" />
+            <element signature="e#4165#4166#0" expanded="false" />
+            <element signature="e#4202#4203#0" expanded="false" />
+            <element signature="e#4234#4235#0" expanded="false" />
+            <element signature="e#4332#4333#0" expanded="false" />
+            <element signature="e#4359#4360#0" expanded="false" />
+            <element signature="e#4399#4400#0" expanded="false" />
+            <element signature="e#4431#4432#0" expanded="false" />
+            <element signature="e#4527#4528#0" expanded="false" />
+            <element signature="e#4554#4555#0" expanded="false" />
+            <element signature="e#4591#4592#0" expanded="false" />
+            <element signature="e#4623#4624#0" expanded="false" />
+            <element signature="e#4721#4722#0" expanded="false" />
+            <element signature="e#4748#4749#0" expanded="false" />
+            <element signature="e#4788#4789#0" expanded="false" />
+            <element signature="e#4820#4821#0" expanded="false" />
+            <element signature="e#4918#4919#0" expanded="false" />
+            <element signature="e#4946#4947#0" expanded="false" />
+            <element signature="e#4985#4986#0" expanded="false" />
+            <element signature="e#5019#5020#0" expanded="false" />
+            <element signature="e#5117#5118#0" expanded="false" />
+            <element signature="e#5144#5145#0" expanded="false" />
+            <element signature="e#5184#5185#0" expanded="false" />
+            <element signature="e#5216#5217#0" expanded="false" />
+            <element signature="e#5308#5309#0" expanded="false" />
+            <element signature="e#5333#5334#0" expanded="false" />
+            <element signature="e#5366#5367#0" expanded="false" />
+            <element signature="e#5394#5395#0" expanded="false" />
+            <element signature="e#5494#5495#0" expanded="false" />
+            <element signature="e#5522#5523#0" expanded="false" />
+            <element signature="e#5564#5565#0" expanded="false" />
+            <element signature="e#5598#5599#0" expanded="false" />
+            <element signature="e#5697#5698#0" expanded="false" />
+            <element signature="e#5724#5725#0" expanded="false" />
+            <element signature="e#5764#5765#0" expanded="false" />
+            <element signature="e#5796#5797#0" expanded="false" />
+            <element signature="e#5887#5888#0" expanded="false" />
+            <element signature="e#5912#5913#0" expanded="false" />
+            <element signature="e#5945#5946#0" expanded="false" />
+            <element signature="e#5973#5974#0" expanded="false" />
+            <element signature="e#6066#6067#0" expanded="false" />
+            <element signature="e#6092#6093#0" expanded="false" />
+            <element signature="e#6127#6128#0" expanded="false" />
+            <element signature="e#6157#6158#0" expanded="false" />
+            <element signature="e#6248#6249#0" expanded="false" />
+            <element signature="e#6273#6274#0" expanded="false" />
+            <element signature="e#6306#6307#0" expanded="false" />
+            <element signature="e#6334#6335#0" expanded="false" />
+            <element signature="e#6427#6428#0" expanded="false" />
+            <element signature="e#6453#6454#0" expanded="false" />
+            <element signature="e#6488#6489#0" expanded="false" />
+            <element signature="e#6518#6519#0" expanded="false" />
+            <element signature="e#6607#6608#0" expanded="false" />
+            <element signature="e#6631#6632#0" expanded="false" />
+            <element signature="e#6662#6663#0" expanded="false" />
+            <element signature="e#6688#6689#0" expanded="false" />
+            <element signature="e#10384#10385#0" expanded="false" />
+            <element signature="e#10411#10412#0" expanded="false" />
+            <element signature="e#10449#10450#0" expanded="false" />
+            <element signature="e#10481#10482#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/service/DoctorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.6.RELEASE/spring-web-4.2.6.RELEASE.jar!/org/springframework/web/context/ContextLoaderListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/service/impl/DoctorServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/service/impl/InfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/dao/impl/InfoDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/dao/impl/DoctorDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/dao/DoctorDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1196">
+          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding>
+            <element signature="n#dependency#12;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#dependency#13;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#dependency#14;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#dependency#15;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#dependency#16;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#dependency#17;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="15" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="102" column="14" lean-forward="false" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="14" />
+          <folding>
+            <element signature="method#getImage#0;class#LoginController#0" expanded="false" />
+            <element signature="method#getRandColor#0;class#LoginController#0" expanded="false" />
+            <element signature="method#processDoctorLogin#0;class#LoginController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/user/relalist.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="49" column="22" lean-forward="false" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/xingou-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2053,34 +1942,86 @@
     <entry file="file://$PROJECT_DIR$/开发文档.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="345">
-            <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <first_editor relative-caret-position="385">
+            <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/doctor/homepage.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springMVC.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="78" column="48" lean-forward="false" selection-start-line="78" selection-start-column="48" selection-end-line="78" selection-end-column="48" />
+        <state relative-caret-position="0">
+          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/controller/LoginController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/user/infosingle.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="104" column="39" lean-forward="false" selection-start-line="104" selection-start-column="39" selection-end-line="104" selection-end-column="39" />
+        <state relative-caret-position="299">
+          <caret line="130" column="39" lean-forward="false" selection-start-line="130" selection-start-column="39" selection-end-line="130" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/controller/MainController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        <state relative-caret-position="250">
+          <caret line="195" column="15" lean-forward="false" selection-start-line="195" selection-start-column="15" selection-end-line="195" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/dao/impl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/controller/RelaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/dao/BaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1081">
+          <caret line="47" column="110" lean-forward="false" selection-start-line="47" selection-start-column="110" selection-end-line="47" selection-end-column="110" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="95" column="86" lean-forward="true" selection-start-line="95" selection-start-column="86" selection-end-line="95" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xingou/dao/impl/BaseDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/xingou-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="44" column="19" lean-forward="true" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
           <folding />
         </state>
       </provider>

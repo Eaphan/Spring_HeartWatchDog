@@ -313,3 +313,25 @@ create table friend_request(
   FOREIGN KEY (uid) REFERENCES user(uid),
   FOREIGN KEY (reid) REFERENCES user(uid)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE urine (
+  id int  NOT NULL AUTO_INCREMENT,
+  uid int  NOT NULL,
+  date varchar(20) NOT NULL,
+  leu varchar(5) DEFAULT NULL,
+  nit varchar(5) DEFAULT NULL,
+  ubg varchar(5) DEFAULT NULL,
+  pro varchar(5) DEFAULT NULL,
+  ph varchar(5) DEFAULT NULL,
+  sg varchar(5) DEFAULT NULL,
+  ca varchar(5) DEFAULT NULL,
+  bld varchar(5) DEFAULT NULL,
+  ket varchar(5) DEFAULT NULL,
+  bil varchar(5) DEFAULT NULL,
+  glu varchar(5) DEFAULT NULL,
+  vc varchar(5) DEFAULT NULL,
+  ma varchar(5) DEFAULT NULL,
+  cr varchar(5) DEFAULT NULL,
+  PRIMARY KEY (id),
+  FOREIGN KEY (uid) REFERENCES user(uid)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
