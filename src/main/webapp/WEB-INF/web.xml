@@ -7,12 +7,15 @@
   <!--</welcome-file-list>-->
   <description>心狗健康管理系统</description>
   <display-name>xingou</display-name>
-
   <!--读取spring配置文件-->
   <context-param>
     <param-name>contextConfigLocation</param-name>
     <param-value>classpath:/applicationContext.xml</param-value>
   </context-param>
+  <!--启动spring-->
+  <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
   <!--解决懒加载问题-->
   <filter>
     <filter-name>hibernateFilter</filter-name>
@@ -29,19 +32,16 @@
       <param-value>true</param-value>
     </init-param>
     <init-param>
-      <param-name>flushMode</param-name>
-      <param-value>AUTO</param-value>
+    <param-name>flushMode</param-name>
+    <param-value>AUTO</param-value>
     </init-param>
   </filter>
   <filter-mapping>
     <filter-name>hibernateFilter</filter-name>
     <url-pattern>/*</url-pattern>
+    <dispatcher>REQUEST</dispatcher>
+    <dispatcher>FORWARD</dispatcher>
   </filter-mapping>
-  <!--启动spring-->
-  <listener>
-    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-  </listener>
-
 
   <!--spring字符集过滤器-->
   <filter>
@@ -62,17 +62,18 @@
   </filter-mapping>
   <!--处理中文乱码问题-->
   <!--日志记录-->
-  <context-param>
-    <param-name>log4jConfiigLocation</param-name>
-    <param-value>classpath:conf/log4j.properties</param-value>
-  </context-param>
-  <context-param>
-    <param-name>log4jRefreshInterval</param-name>
-    <param-value>6000</param-value>
-  </context-param>
-  <listener>
-    <listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
-  </listener>
+  <!--<context-param>-->
+    <!--<param-name>log4jConfiigLocation</param-name>-->
+    <!--<param-value>classpath:conf/log4j.properties</param-value>-->
+  <!--</context-param>-->
+  <!--<context-param>-->
+    <!--<param-name>log4jRefreshInterval</param-name>-->
+    <!--<param-value>6000</param-value>-->
+  <!--</context-param>-->
+  <!--<listener>-->
+    <!--<listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>-->
+  <!--</listener>-->
+
   <!--spring MVC配置-->
   <servlet>
     <servlet-name>springMVC</servlet-name>
@@ -81,7 +82,7 @@
       <param-name>contextConfigLocation</param-name>
       <param-value>classpath:springMVC.xml</param-value>
     </init-param>
-    <load-on-startup>1</load-on-startup>
+    <load-on-startup>3</load-on-startup>
   </servlet>
   <servlet-mapping>
     <servlet-name>springMVC</servlet-name>

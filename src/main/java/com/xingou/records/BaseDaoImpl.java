@@ -1,10 +1,10 @@
-package com.xingou.dao.impl;
+package com.xingou.records;
 import com.xingou.dao.BaseDao;
 import org.hibernate.Query;
 import org.hibernate.Session;
-import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Repository;
+import org.springframework.orm.hibernate4.HibernateTemplate;
+
 import java.io.Serializable;
 import java.lang.reflect.ParameterizedType;
 import java.util.List;
@@ -15,21 +15,22 @@ import java.util.Map;
 //该批注的作用是给编译器一条指令，告诉它对被批注的代码元素内部的某些警告保持静默。
 public class BaseDaoImpl<T> implements BaseDao<T> {
 
-    private SessionFactory sessionFactory;
+//    private SessionFactory sessionFactory;
+    private HibernateTemplate hibernateTemplate;
     private Class<T> clz;
 
-    public SessionFactory getSessionFactory() {
-        return sessionFactory;
+    public HibernateTemplate getHibernateTemplate() {
+        return hibernateTemplate;
     }
 
     @Autowired
-    public void setSessionFactory(SessionFactory sessionFactory) {
-        this.sessionFactory = sessionFactory;
+    public void setHibernateTemplate(HibernateTemplate hibernateTemplate) {
+        this.hibernateTemplate = hibernateTemplate;
+    }
+    public  Session getCurrentSession() {
+        return hibernateTemplate.getSessionFactory().getCurrentSession();
     }
 
-    protected Session getCurrentSession() {
-        return this.sessionFactory.getCurrentSession();
-    }
 
     private Class<T> getClz() {
         if (clz == null) {
@@ -74,7 +75,7 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
     public List<T> find(String hql , Object... params)
     {
         // 创建查询
-        Query query = getSessionFactory().getCurrentSession()
+        Query query = this.getCurrentSession()
                 .createQuery(hql);
         // 为包含占位符的HQL语句设置参数
         for(int i = 0 , len = params.length ; i < len ; i++)
@@ -95,14 +96,14 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 
     //获得所查询到的记录总数
     public Integer count(String hql) {
-        Query q = sessionFactory.getCurrentSession().createQuery(hql);
+        Query q = this.getCurrentSession().createQuery(hql);
         List cc = q.list();
         Long a = (Long) cc.get(0);
         return a.intValue();
     }
 
     public Integer count(String hql, Integer id) {
-        Query q = sessionFactory.getCurrentSession().createQuery(hql);
+        Query q = this.getCurrentSession().createQuery(hql);
         q.setParameter(0, id);
         List cc = q.list();
         Long a = (Long) cc.get(0);
@@ -133,5 +134,4 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
         }
         return q.executeUpdate();
     }
-
 }

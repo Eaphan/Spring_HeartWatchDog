@@ -18,6 +18,7 @@
             <ref bean="sessionFactory"/>
         </property>
     </bean>
+    <bean id="requestMappingHandlerAdapter" class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter"></bean>
 
     <!--使用强大的切片表达式语言轻松定义目标语言-->
     <aop:config>

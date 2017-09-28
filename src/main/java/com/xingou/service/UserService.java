@@ -8,6 +8,8 @@ package com.xingou.service;/*
 import com.xingou.entity.Doctor;
 import com.xingou.entity.User;
 
+import java.util.List;
+
 public interface UserService {
     // 用户名不存在
     public static final int LOGIN_NOTEXIST = -1;
@@ -17,4 +19,6 @@ public interface UserService {
     public static final int LOGIN_UER = 1;
 
     User validLogin(User user);
+
+    List findFriends(int uid);
 }

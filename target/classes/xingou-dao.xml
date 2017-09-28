@@ -46,9 +46,6 @@
     </bean>
     <bean id="hibernateTemplate" class="org.springframework.orm.hibernate4.HibernateTemplate"
           p:sessionFactory-ref="sessionFactory"/>
-    <!--&lt;!&ndash;对数据源进行数据管理&ndash;&gt;-->
-    <!--<bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager"-->
-        <!--p:dataSource-ref="dataSource"/>-->
     <!-- 配置事务管理器 -->
     <bean id="transactionManager" class="org.springframework.orm.hibernate4.HibernateTransactionManager">
         <property name="sessionFactory">
@@ -69,7 +66,7 @@
         </tx:attributes>
     </tx:advice>
     <aop:config>
-        <aop:advisor id="managerTx" advice-ref="txAdvice" pointcut="execution(* com.xingou.*.*(..))" order="1"/>
+        <aop:advisor id="managerTx" advice-ref="txAdvice" pointcut="execution(* com.xingou.dao.*Dao.*(..))" order="1"/>
     </aop:config>
 </beans>
 

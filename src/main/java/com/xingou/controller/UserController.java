@@ -8,10 +8,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
-public class MainController {
+public class UserController {
     @RequestMapping(value = "/homepage", method = RequestMethod.GET)
     public String index(){
-        return "/user/homepage";
+        return "user/homepage";
     }
     @RequestMapping(value = "/doctor/homepage", method = RequestMethod.GET)
     public String doctor_homepage(){
@@ -19,23 +19,23 @@ public class MainController {
     }
     @RequestMapping(value = "/login", method = RequestMethod.GET)
     public String login(){
-        return "/login";
+        return "login";
     }
     @RequestMapping(value = "/prototype", method = RequestMethod.GET)
     public String prototype(){
-        return "/prototype";
+        return "prototype";
     }
     @RequestMapping(value = "/module1", method = RequestMethod.GET)
     public String module1(){
-        return "/module1";
+        return "module1";
     }
     @RequestMapping(value = "/register", method = RequestMethod.GET)
     public String reg(){
-        return "/register";
+        return "register";
     }
     @RequestMapping(value = "/enterimage", method = RequestMethod.GET)
     public String enterimage(){
-        return "/enterimage";
+        return "enterimage";
     }
 }
 

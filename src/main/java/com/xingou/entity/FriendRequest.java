@@ -36,36 +36,6 @@ public class FriendRequest {
         this.id = id;
     }
 
-//    @Basic
-//    @Column(name = "uid", nullable = false)
-//    public int getUid() {
-//        return uid;
-//    }
-//
-//    public void setUid(int uid) {
-//        this.uid = uid;
-//    }
-//
-//    @Basic
-//    @Column(name = "reid", nullable = false)
-//    public int getReid() {
-//        return reid;
-//    }
-//
-//    public void setReid(int reid) {
-//        this.reid = reid;
-//    }
-
-    @Basic
-    @Column(name = "status", nullable = false)
-    public byte getStatus() {
-        return status;
-    }
-
-    public void setStatus(byte status) {
-        this.status = status;
-    }
-
     @Basic
     @Column(name = "information", nullable = true, length = 100)
     public String getInformation() {
@@ -86,7 +56,6 @@ public class FriendRequest {
         if (id != that.id) return false;
 //        if (uid != that.uid) return false;
 //        if (reid != that.reid) return false;
-        if (status != that.status) return false;
         if (information != null ? !information.equals(that.information) : that.information != null) return false;
 
         return true;
@@ -97,7 +66,6 @@ public class FriendRequest {
         int result = id;
 //        result = 31 * result + uid;
 //        result = 31 * result + reid;
-        result = 31 * result + (int) status;
         result = 31 * result + (information != null ? information.hashCode() : 0);
         return result;
     }
@@ -117,8 +85,8 @@ public class FriendRequest {
     public User getToreceived_user() {
         return toreceived_user;
     }
-
     public void setToreceived_user(User toreceived_user) {
         this.toreceived_user = toreceived_user;
     }
+
 }

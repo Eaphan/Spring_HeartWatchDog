@@ -4,7 +4,6 @@ package com.xingou.controller;
 *@DATE2017/7/27
 *@author viczyf
 */
-
 import com.xingou.entity.Doctor;
 import com.xingou.entity.User;
 import com.xingou.service.DoctorService;
@@ -22,7 +21,6 @@ import javax.servlet.http.HttpSession;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.util.Random;
-
 @Controller
 public class LoginController {
     private UserService userService;
@@ -106,6 +104,7 @@ public class LoginController {
         }
         return mav;
     }
+
     @RequestMapping(value = "/processDoctorLogin", method = RequestMethod.POST)
     public ModelAndView processDoctorLogin(HttpServletRequest request, Doctor doctor,String checkcode ){
         Doctor dbDoctor=doctorService.validLogin (doctor);
@@ -123,4 +122,5 @@ public class LoginController {
         }
         return mav;
     }
+
 }

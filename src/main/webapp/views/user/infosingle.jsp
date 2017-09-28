@@ -128,7 +128,7 @@
         can.beginPath();
         can.font="15px Arial";
         can.textAlign="start";
-        can.fillText("姓名: ${user.uname}",100/scale,170/scale);
+        can.fillText("姓名: ${user.uname}${infosingle.user.userinfo.height}",100/scale,170/scale);
         can.fillText("性别:${user.userinfo.gender}",300/scale,170/scale);
         can.fillText("年龄:${user.userinfo.age}",500/scale,170/scale);
         can.fillText("时间: <%=time%>",700/scale,170/scale);
@@ -205,7 +205,6 @@
         can.lineTo(95/scale,890/scale);
         can.lineTo(100/scale,890/scale);
         can.stroke();
-
         var xData = [];
         var yData = [];
         <%
@@ -218,7 +217,6 @@
         %>
         xData.push(<%=i%>);
         yData.push(<%=MyTools.strTofloat(ylist[i])%>);
-
         <%}%>
         can.beginPath();
         can.lineWidth=1;
@@ -239,7 +237,6 @@
             can.lineTo((100+0.24414*(x-7168))/scale,(890-yData[x]/136500)/scale)
         }
         can.stroke();
-
         can.beginPath();
         can.font = "12px Arial";
         can.fillText("5mm", 100 / scale, 310 / scale);
@@ -268,25 +265,25 @@
         can.lineTo(975/scale,1040/scale);
         can.fillText("1",110/scale,1065/scale)
         can.fillText("心动过速",300/scale,1065/scale)
-        can.fillText("<%=percentFormat.format(single.getXdgs()/100)%>",630/scale,1065/scale)
+        can.fillText("<%=percentFormat.format(single.getXdgs()/100.0)%>",630/scale,1065/scale)
         can.fillText("<%=single.getCon1()%>",900/scale,1065/scale)
         can.moveTo(75/scale,1070/scale);
         can.lineTo(975/scale,1070/scale);
         can.fillText("2",110/scale,1095/scale)
         can.fillText("室性心动过速",300/scale,1095/scale)
-        can.fillText("<%=percentFormat.format(single.getSxxdgs()/100)%>",630/scale,1095/scale)
+        can.fillText("<%=percentFormat.format(single.getSxxdgs()/100.0)%>",630/scale,1095/scale)
         can.fillText("<%=single.getCon2()%>",900/scale,1095/scale)
         can.moveTo(75/scale,1100/scale);
         can.lineTo(975/scale,1100/scale);
         can.fillText("3",110/scale,1125/scale)
         can.fillText("心动过缓",300/scale,1125/scale)
-        can.fillText("<%=percentFormat.format(single.getXdgh()/100)%>",630/scale,1125/scale)
+        can.fillText("<%=percentFormat.format(single.getXdgh()/100.0)%>",630/scale,1125/scale)
         can.fillText("<%=single.getCon3()%>",900/scale,1125/scale)
         can.moveTo(75/scale,1130/scale);
         can.lineTo(975/scale,1130/scale);
         can.fillText("4",110/scale,1155/scale)
         can.fillText("房性逸搏",300/scale,1155/scale)
-        can.fillText("<%=percentFormat.format(single.getFxyb()/100)%>",630/scale,1155/scale)
+        can.fillText("<%=percentFormat.format(single.getFxyb()/100.0)%>",630/scale,1155/scale)
         can.fillText("<%=single.getCon4()%>",900/scale,1155/scale)
         can.moveTo(75/scale,1160/scale);
         can.lineTo(975/scale,1160/scale);
@@ -298,7 +295,7 @@
         can.lineTo(975/scale,1190/scale);
         can.fillText("6",110/scale,1215/scale)
         can.fillText("心率不齐",300/scale,1215/scale)
-        can.fillText("<%=percentFormat.format(single.getXlbq()/100)%>",630/scale,1215/scale)
+        can.fillText("<%=percentFormat.format(single.getXlbq()/100.0)%>",630/scale,1215/scale)
         can.fillText("<%=single.getCon6()%>",900/scale,1215/scale)
         can.moveTo(75/scale,1220/scale);
         can.lineTo(975/scale,1220/scale);
@@ -310,19 +307,19 @@
         can.lineTo(975/scale,1250/scale);
         can.fillText("8",110/scale,1275/scale)
         can.fillText("房性早搏",300/scale,1275/scale)
-        can.fillText("<%=percentFormat.format(single.getFxzb()/100)%>",630/scale,1275/scale)
+        can.fillText("<%=percentFormat.format(single.getFxzb()/100.0)%>",630/scale,1275/scale)
         can.fillText("<%=single.getCon8()%>",900/scale,1275/scale)
         can.moveTo(75/scale,1280/scale);
         can.lineTo(975/scale,1280/scale);
         can.fillText("9",110/scale,1305/scale)
         can.fillText("交界性早搏",300/scale,1305/scale)
-        can.fillText("<%=percentFormat.format(single.getJjxzb()/100)%>",630/scale,1305/scale)
+        can.fillText("<%=percentFormat.format(single.getJjxzb()/100.0)%>",630/scale,1305/scale)
         can.fillText("<%=single.getCon9()%>",900/scale,1305/scale)
         can.moveTo(75/scale,1310/scale);
         can.lineTo(975/scale,1310/scale);
         can.fillText("10",110/scale,1335/scale)
         can.fillText("房颤",300/scale,1335/scale)
-        can.fillText("<%=percentFormat.format(single.getFc()/100)%>",630/scale,1335/scale)
+        can.fillText("<%=percentFormat.format(single.getFc()/100.0)%>",630/scale,1335/scale)
         can.fillText("<%=single.getCon10()%>",900/scale,1335/scale)
         can.moveTo(75/scale,1340/scale);
         can.lineTo(975/scale,1340/scale);

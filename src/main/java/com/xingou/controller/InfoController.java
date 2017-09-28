@@ -118,9 +118,6 @@ public class InfoController {
             System.out.println("删除失败");
         }
         return model;
-//        map.put("infosingle", info);
-//        return "infoList";
     }
-
 }
 

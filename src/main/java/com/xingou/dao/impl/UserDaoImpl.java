@@ -25,4 +25,10 @@ public class UserDaoImpl extends BaseDaoImpl<User> implements UserDao {
         }
         return null;
     }
+
+    public List findFriends(int uid) {
+        String hql = "select u.friends from User u where u.uid=?0";
+        List<User> friends = find(hql, uid);
+        return friends;
+    }
 }

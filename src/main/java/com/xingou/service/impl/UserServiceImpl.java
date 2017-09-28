@@ -16,6 +16,7 @@ import com.xingou.service.UserService;
 
 import javax.annotation.Resource;
 import javax.transaction.Transactional;
+import java.util.List;
 
 @Service("userService")
 public class UserServiceImpl implements UserService {
@@ -25,4 +26,7 @@ public class UserServiceImpl implements UserService {
     public User validLogin(User user) {
         return userDao.findByNameAndPass(user);
     }
+    public List findFriends(int uid){
+        return userDao.findFriends(uid);
+    };
 }

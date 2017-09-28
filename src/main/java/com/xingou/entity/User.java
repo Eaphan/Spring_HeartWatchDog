@@ -143,7 +143,6 @@ public class User implements Serializable {
     public Set<Examination> getExaminations() {
         return Examinations;
     }
-
     public void setExaminations(Set<Examination> examinations) {
         Examinations = examinations;
     }
@@ -152,7 +151,6 @@ public class User implements Serializable {
     public Set<File> getFiles() {
         return files;
     }
-
     public void setFiles(Set<File> files) {
         this.files = files;
     }
@@ -193,14 +191,14 @@ public class User implements Serializable {
     }
 //,fetch = FetchType.EAGER
 //    @OneToMany(mappedBy = "user")
-    @OneToMany()
+    @OneToMany(mappedBy = "user")
     public Set<Info> getInfos() {
         return infos;
     }
-
     public void setInfos(Set<Info> infos) {
         this.infos = infos;
     }
+
     @OneToMany(mappedBy = "user")
     public Set<Info24> getInfo24s() {
         return info24s;

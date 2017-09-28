@@ -15,4 +15,5 @@ public interface InfoService {
     List<Info> selectInfoByTime(int uid,String startDate,String endDate);
 
     Info singleInfo(int uid,int id);
+
 }

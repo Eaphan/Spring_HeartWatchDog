@@ -38,7 +38,6 @@ public interface BaseDao<T> {
 
     public int executeHql(String hql, Map<String, Object> params);
 
-    Integer findByUid(Integer uid);
 
 }
 //    Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException:

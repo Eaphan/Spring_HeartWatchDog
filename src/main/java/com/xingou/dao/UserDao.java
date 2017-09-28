@@ -13,4 +13,7 @@ public interface UserDao extends BaseDao<User> {
     User findByNameAndPass(User user);
 
     User findByName(String name);
+
+    List findFriends(int uid);
+
 }
