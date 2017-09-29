@@ -29,10 +29,10 @@
           <p>用户高度${user.userinfo.height}</p>
           <p>用户体重${user.userinfo.weight}</p>
 
-          <c:forEach var="r" items="${requestFriends}" varStatus="vs">
-            <%--<p><c:out value="${vs.index+1}"></c:out></p>--%>
-            <p><c:out value="${r.toreceived_user.uname}"></c:out></p>
+          <c:forEach var="r" items="${user.friends}" varStatus="vs">
+            <p><c:out value="${r.uname}"></c:out></p>
           </c:forEach>
+
           <%--分割线，从此之下四个表格--%>
           <div class="col-md-12 col-sm-12">
             <div class="x_panel">
@@ -69,7 +69,8 @@
                               <th><c:out value="${vs.count}"/></th>
                               <th><c:out value="${f.uname}"/></th>
                               <th>查看好友健康信息</th>
-                              <th>删除好友</th>
+                              <th><a href="/deleteFriend/${f.uid}">删除好友</a></th>
+                              <%--<th><a>删除好友</a></th>--%>
                             </tr>
                           </c:forEach>
                         </tbody>
@@ -90,10 +91,10 @@
                         <c:forEach var="r" items="${requestFriends}" varStatus="vs">
                           <tr>
                             <th><c:out value="${vs.count}"/></th>
-                            <th><c:out value="${r.toreceived_user.uname}"/></th>
+                            <th><c:out value="${r.request_user.uname}"/></th>
                             <th><c:out value="${r.information}"/></th>
-                            <th>加他/她为好友</th>
-                            <th>拒绝申请</th>
+                            <th><a href="/addFriend/${r.request_user.uid}/${r.id}">加他/她为好友</a></th>
+                            <th><a href="/refuseRequest/${r.id}">拒绝申请</a></th>
                           </tr>
                         </c:forEach>
                         </tbody>
@@ -115,14 +116,14 @@
                             <th><c:out value="${vs.count}"/></th>
                             <th><c:out value="${t.toreceived_user.uname}"/></th>
                             <th><c:out value="${t.information}"/></th>
-                            <th>撤销申请</th>
+                            <th><a href="/cancelRequest/${t.id}">撤销申请</a></th>
                           </tr>
                         </c:forEach>
                         </tbody>
                       </table>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="tab_content4" aria-labelledby="profile-tab">
-                      <form id="apply-form" class="col-md-6 col-sm-6" data-parsley-validate>
+                      <form action="/addRequest" method="post" id="apply-form" class="col-md-6 col-sm-6" data-parsley-validate>
                         <label for="relaName">好友申请</label>
                         <input type="text" id="relaName" class="form-control col-sm-6 col-md-6" name="relaName" placeholder="请输入对方的用户名" required />
                         <br>
@@ -132,7 +133,7 @@
                         <textarea id="information" required="required" class="form-control" name="information" data-parsley-trigger="keyup"
                                   data-parsley-maxlength="100" data-parsley-maxlength-message="Come on! You need to enter at least a 20 caracters long comment.."></textarea>
                         <br/>
-                        <span class="btn btn-primary">提交申请</span>
+                        <button type="submit" class="btn btn-primary" >提交申请</button><br>
                       </form>
                     </div>
                   </div>

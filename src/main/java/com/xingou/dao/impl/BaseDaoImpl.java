@@ -53,6 +53,9 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
         this.getCurrentSession().update(o);
     }
 
+    public void merge(T o) {
+        this.getCurrentSession().merge(o);
+    }
     public void delete(T o) {
         this.getCurrentSession().delete(o);
     }

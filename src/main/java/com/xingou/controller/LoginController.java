@@ -91,7 +91,7 @@ public class LoginController {
     public ModelAndView processUserLogin(HttpServletRequest request, User user,String checkcode ){
         User dbUser=userService.validLogin(user);
         ModelAndView mav = new ModelAndView();
-        mav.setViewName("forward:/login.jsp");
+        mav.setViewName("/login");
         HttpSession session = request.getSession();
         String checkCode = (String) request.getSession().getAttribute("checkcode");
         if (!checkCode.equalsIgnoreCase(checkcode)) {
@@ -100,7 +100,7 @@ public class LoginController {
             mav.addObject("errorMsg", "用户密码不正确");
         }else{
             session.setAttribute("user", dbUser);
-            mav.setViewName("redirect:/homepage");
+            mav.setViewName("/user/homepage");
         }
         return mav;
     }
@@ -109,7 +109,7 @@ public class LoginController {
     public ModelAndView processDoctorLogin(HttpServletRequest request, Doctor doctor,String checkcode ){
         Doctor dbDoctor=doctorService.validLogin (doctor);
         ModelAndView mav = new ModelAndView();
-        mav.setViewName("forward:/login.jsp");
+        mav.setViewName("/login");
         HttpSession session = request.getSession();
         String checkCode = (String) request.getSession().getAttribute("checkcode");
         if (!checkCode.equalsIgnoreCase(checkcode)) {
@@ -118,7 +118,7 @@ public class LoginController {
             mav.addObject("errorMsg", "用户密码不正确");
         }else{
             session.setAttribute("doctor", dbDoctor);
-            mav.setViewName("redirect:/doctor/homepage");
+            mav.setViewName("/doctor/homepage");
         }
         return mav;
     }

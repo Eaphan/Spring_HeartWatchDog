@@ -8,6 +8,7 @@ package com.xingou.entity;
 import org.hibernate.annotations.*;
 import org.hibernate.annotations.Cache;
 import javax.persistence.*;
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 import java.io.Serializable;
@@ -178,7 +179,7 @@ public class User implements Serializable {
     public void setToreceived_friends(Set<FriendRequest> toreceived_friends) {
         this.toreceived_friends = toreceived_friends;
     }
-    @ManyToMany(targetEntity = User.class)
+    @ManyToMany(targetEntity = User.class,fetch = FetchType.EAGER)
     @JoinTable(name = "user_rela",
             joinColumns = @JoinColumn(name = "uid", referencedColumnName = "uid"),
             inverseJoinColumns = @JoinColumn(name = "reid", referencedColumnName = "uid"))

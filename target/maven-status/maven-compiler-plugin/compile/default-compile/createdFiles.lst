@@ -1,5 +1,4 @@
 com\xingou\dao\impl\RelaDaoImpl.class
-com\xingou\records\BaseDaoImpl.class
 com\xingou\service\InfoService.class
 com\xingou\dao\InfoDao.class
 com\xingou\service\DoctorService.class

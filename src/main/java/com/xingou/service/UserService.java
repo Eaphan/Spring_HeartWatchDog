@@ -21,4 +21,12 @@ public interface UserService {
     User validLogin(User user);
 
     List findFriends(int uid);
+
+    User findUserById(int uid);
+
+    User findUserByName(String unmae);
+
+    void addFriend(User user, int id);
+
+    void deleteFriend(User user, int id);
 }

@@ -14,6 +14,8 @@ public interface BaseDao<T> {
 
     public void update(T o);
 
+    public void merge(T o);
+
     public void saveOrUpdate(T o);
 
     public T get(Serializable id);

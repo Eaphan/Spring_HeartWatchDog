@@ -41,6 +41,7 @@
                     org.hibernate.cache.ehcache.EhCacheRegionFactory
                 </prop>
                 <prop key="hibernate.cache.use_query_cache">false</prop>
+                <prop key="hibernate.event.merge.entity_copy_observer">allow</prop>
             </props>
         </property>
     </bean>

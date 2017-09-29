@@ -28,4 +28,22 @@ public class RelaServiceImpl implements RelaService {
         List<FriendRequest> toreceivedFriends = relaDao.findToreceivedFriends(uid);
         return toreceivedFriends;
     };
+
+    public void refuseRequest(int uid, int id){
+        FriendRequest friendRequest = relaDao.get(id);
+        if (friendRequest.getToreceived_user().getUid() == uid) {
+            relaDao.deleteRequest(id);
+        }
+    };
+
+    public void cancelRequest(int uid, int id) {
+        FriendRequest friendRequest = relaDao.get(id);
+        if (friendRequest.getRequest_user().getUid() == uid) {
+            relaDao.deleteRequest(id);
+        }
+    }
+
+    public void addRequest(FriendRequest friendRequest) {
+        relaDao.save(friendRequest);
+    }
 }

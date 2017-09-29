@@ -9,6 +9,8 @@ import com.xingou.entity.User;
 import org.hibernate.*;
 import org.springframework.stereotype.Repository;
 import java.util.List;
+import java.util.Set;
+
 @Repository("userDao")
 public class UserDaoImpl extends BaseDaoImpl<User> implements UserDao {
     public User findByNameAndPass(User user) {
@@ -31,4 +33,5 @@ public class UserDaoImpl extends BaseDaoImpl<User> implements UserDao {
         List<User> friends = find(hql, uid);
         return friends;
     }
+
 }
