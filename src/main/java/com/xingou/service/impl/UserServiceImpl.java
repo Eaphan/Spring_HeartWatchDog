@@ -39,6 +39,9 @@ public class UserServiceImpl implements UserService {
         return userDao.findByName(uname);
     }
 
+    public String findUnameById(int id) {
+        return userDao.findUnameById(id);
+    }
     public void addFriend(User user, int id) {
         User requestUser = userDao.get(id);
 //        Set userFriends = user.getFriends();

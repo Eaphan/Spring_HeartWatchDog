@@ -17,7 +17,6 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 
     private SessionFactory sessionFactory;
     private Class<T> clz;
-
     public SessionFactory getSessionFactory() {
         return sessionFactory;
     }
@@ -136,5 +135,4 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
         }
         return q.executeUpdate();
     }
-
 }

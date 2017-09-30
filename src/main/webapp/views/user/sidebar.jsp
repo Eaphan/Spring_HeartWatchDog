@@ -30,7 +30,7 @@
                     <li><a href="relaManage"><i class="fa fa-list-ul"></i> 亲友管理 </a></li>
                     <li><a href="#"><i class="fa fa-user-md"></i> 私人医生 </a></li>
                     <li><a href="#"><i class="fa fa-user"></i> 个人信息 </a></li>
-                    <li><a href="#"><i class="fa fa-bell"></i> 聊天信息 </a></li>
+                    <li><a href="chat"><i class="fa fa-bell"></i> 聊天信息 </a></li>
                     <li><a href="#"><i class="fa fa-gear"></i> 账户设置 </a></li>
                     <li><a href="#"><i class="fa fa-sign-out"></i> 退出登录 </a></li>
                 </ul>

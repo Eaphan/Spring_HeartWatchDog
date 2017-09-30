@@ -16,6 +16,7 @@ public interface UserDao extends BaseDao<User> {
     User findByName(String name);
 
     List findFriends(int uid);
-//增加好友，删除好友，查看好友信息
 
+    //增加好友，删除好友，查看好友信息
+    String findUnameById(int uid);
 }

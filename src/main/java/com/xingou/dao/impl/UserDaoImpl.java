@@ -33,5 +33,10 @@ public class UserDaoImpl extends BaseDaoImpl<User> implements UserDao {
         List<User> friends = find(hql, uid);
         return friends;
     }
-
+    public String findUnameById(int uid) {
+        String hql = "select u.uname from User u where u.uid=?";
+        Query query = this.getCurrentSession().createQuery(hql);
+        query.setInteger(0, uid);
+        return (String) query.uniqueResult();
+    }
 }

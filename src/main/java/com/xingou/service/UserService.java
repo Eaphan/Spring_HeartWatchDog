@@ -26,6 +26,7 @@ public interface UserService {
 
     User findUserByName(String unmae);
 
+    String findUnameById(int id);
     void addFriend(User user, int id);
 
     void deleteFriend(User user, int id);
