@@ -36,6 +36,7 @@ import static java.awt.SystemColor.info;
 
 @Controller
 public class InfoController {
+
     private InfoService infoService;
 
     @Autowired
@@ -119,5 +120,6 @@ public class InfoController {
         }
         return model;
     }
+
 }
 

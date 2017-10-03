@@ -19,9 +19,9 @@ public class WebSocketConfig extends WebMvcConfigurerAdapter implements WebSocke
 	MyWebSocketHandler handler;
 
 	public void registerWebSocketHandlers(WebSocketHandlerRegistry registry) {
-		registry.addHandler(handler, "/ws").addInterceptors(new HandShake());
+		registry.addHandler(handler, "/ws").setAllowedOrigins("*").addInterceptors(new HandShake());
 
-		registry.addHandler(handler, "/ws/sockjs").addInterceptors(new HandShake()).withSockJS();
+		registry.addHandler(handler, "/ws/sockjs").setAllowedOrigins("*").addInterceptors(new HandShake()).withSockJS();
 	}
 
 }

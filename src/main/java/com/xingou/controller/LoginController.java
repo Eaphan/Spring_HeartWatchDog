@@ -94,12 +94,14 @@ public class LoginController {
         mav.setViewName("/login");
         HttpSession session = request.getSession();
         String checkCode = (String) request.getSession().getAttribute("checkcode");
+//        String scale=request.getParameter("scale");
         if (!checkCode.equalsIgnoreCase(checkcode)) {
             mav.addObject("errorMsg", "验证码错误");
         }else if (dbUser == null) {
             mav.addObject("errorMsg", "用户密码不正确");
         }else{
             session.setAttribute("user", dbUser);
+//            session.setAttribute("scale",scale);
             mav.setViewName("/user/homepage");
         }
         return mav;

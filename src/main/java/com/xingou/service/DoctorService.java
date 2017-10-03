@@ -7,6 +7,8 @@ package com.xingou.service;/*
 
 import com.xingou.entity.Doctor;
 
+import java.util.List;
+
 public interface DoctorService {
     // 用户名不存在
     public static final int LOGIN_NOTEXIST = -1;
@@ -16,4 +18,6 @@ public interface DoctorService {
     public static final int LOGIN_DOCTOR = 2;
 
     Doctor validLogin(Doctor doctor);
+
+    List findDoctors(int uid);
 }

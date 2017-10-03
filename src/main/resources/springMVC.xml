@@ -9,7 +9,7 @@
        http://www.springframework.org/schema/context/spring-context.xsd
        http://www.springframework.org/schema/mvc
        http://www.springframework.org/schema/mvc/spring-mvc.xsd">
-    <context:component-scan base-package="com.xingou.controller" />
+    <context:component-scan base-package="com.xingou.controller,com.xingou.websocket" />
     <!--处理请求时候返回的json字符串的中文乱码问题-->
     <mvc:annotation-driven>
         <mvc:message-converters>

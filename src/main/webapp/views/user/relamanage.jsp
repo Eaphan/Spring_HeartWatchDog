@@ -21,17 +21,6 @@
         <!-- page content -->
         <div class="right_col" role="main">
           <!-- top tiles -->
-          <h>用户界面</h>
-          <p>用户姓名${user.uname}</p>
-          <p>用户密码${user.passwd}</p>
-          <p>用户邮箱${user.email}</p>
-          <p>用户手机${user.phone}</p>
-          <p>用户高度${user.userinfo.height}</p>
-          <p>用户体重${user.userinfo.weight}</p>
-
-          <c:forEach var="r" items="${user.friends}" varStatus="vs">
-            <p><c:out value="${r.uname}"></c:out></p>
-          </c:forEach>
 
           <%--分割线，从此之下四个表格--%>
           <div class="col-md-12 col-sm-12">

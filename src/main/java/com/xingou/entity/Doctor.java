@@ -15,6 +15,7 @@ import java.util.Set;
 @DiscriminatorValue(value = "2")
 public class Doctor extends User implements Serializable {
     private Doctorinfo doctorinfo;
+    private Set<User> patients;
     public Doctor(){
     }
     @OneToOne(targetEntity = Doctorinfo.class,mappedBy = "doctor")
@@ -25,5 +26,16 @@ public class Doctor extends User implements Serializable {
     }
     public void setDoctorinfo(Doctorinfo doctorinfo) {
         this.doctorinfo = doctorinfo;
+    }
+    @ManyToMany(targetEntity = Doctor.class)
+    @JoinTable(name = "doctor_user",
+            joinColumns = @JoinColumn(name = "doctorid", referencedColumnName = "uid"),
+            inverseJoinColumns = @JoinColumn(name = "uid", referencedColumnName = "uid"))
+    public Set<User> getPatients() {
+        return patients;
+    }
+
+    public void setPatients(Set<User> patients) {
+        this.patients = patients;
     }
 }

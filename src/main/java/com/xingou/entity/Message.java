@@ -23,6 +23,7 @@ public class Message {
 	public void setFrom(Integer from) {
 		this.from = from;
 	}
+//	-2表示下线通知，0表示上线通知，
 
 	public Integer getTo() {
 		return to;

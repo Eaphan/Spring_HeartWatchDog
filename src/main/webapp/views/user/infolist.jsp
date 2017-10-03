@@ -34,6 +34,7 @@
 
         <!-- page content -->
         <div class="right_col" role="main">
+          <h1 style="border-bottom: 1px solid #eee">心电图及历史诊断结论</h1>
           <%--<form action="InfoServlet?action=time" class="form-horizontal"  role="form" METHOD="post">--%>
           <table  id="teacher_table" data-toggle="table" data-url="infoSelect"
                 data-method="post"

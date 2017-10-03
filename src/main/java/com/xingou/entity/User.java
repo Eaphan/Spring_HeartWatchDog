@@ -11,6 +11,7 @@ import javax.persistence.*;
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.Table;
+import javax.print.Doc;
 import java.io.Serializable;
 import java.util.Set;
 @Entity
@@ -37,6 +38,8 @@ public class User implements Serializable {
     private Set<Medicalhistory> medicalhistorys;
     private Set<Suggestion> suggestions;
     private Set<User> friends;
+    private Set<Doctor> doctors;
+
     public User(){
     }
     @Id
@@ -190,6 +193,7 @@ public class User implements Serializable {
     public void setFriends(Set<User> friends) {
         this.friends = friends;
     }
+
 //,fetch = FetchType.EAGER
 //    @OneToMany(mappedBy = "user")
     @OneToMany(mappedBy = "user")
@@ -225,5 +229,15 @@ public class User implements Serializable {
         this.suggestions = suggestions;
     }
 
+    @ManyToMany(targetEntity = Doctor.class,fetch = FetchType.EAGER)
+    @JoinTable(name = "doctor_user",
+            joinColumns = @JoinColumn(name = "uid", referencedColumnName = "uid"),
+            inverseJoinColumns = @JoinColumn(name = "doctorid", referencedColumnName = "uid"))
+    public Set<Doctor> getDoctors() {
+        return doctors;
+    }
+    public void setDoctors(Set<Doctor> doctors) {
+        this.doctors = doctors;
+    }
 
 }

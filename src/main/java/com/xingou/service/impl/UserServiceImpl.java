@@ -42,6 +42,10 @@ public class UserServiceImpl implements UserService {
     public String findUnameById(int id) {
         return userDao.findUnameById(id);
     }
+    public int findIdByUname(String uname) {
+        return userDao.findIdByUname(uname);
+    }
+
     public void addFriend(User user, int id) {
         User requestUser = userDao.get(id);
 //        Set userFriends = user.getFriends();
@@ -68,5 +72,9 @@ public class UserServiceImpl implements UserService {
         requestUser.setFriends(requestUserFriends);
         userDao.merge(user);
         userDao.saveOrUpdate(requestUser);
+    }
+
+    public List findPatients(int doctorid) {
+        return userDao.findPatients(doctorid);
     }
 }

@@ -19,4 +19,7 @@ public interface UserDao extends BaseDao<User> {
 
     //增加好友，删除好友，查看好友信息
     String findUnameById(int uid);
+    int findIdByUname(String uname);
+
+    List findPatients(int doctorid);
 }

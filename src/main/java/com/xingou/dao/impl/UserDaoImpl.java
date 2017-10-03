@@ -39,4 +39,17 @@ public class UserDaoImpl extends BaseDaoImpl<User> implements UserDao {
         query.setInteger(0, uid);
         return (String) query.uniqueResult();
     }
+    public int findIdByUname(String uname){
+        String hql = "select u.uid from User u where u.uname=?";
+        Query query = this.getCurrentSession().createQuery(hql);
+        query.setString(0, uname);
+        return (Integer) query.uniqueResult();
+    };
+
+    public List findPatients(int doctorid) {
+        String hql = "select d.patients from Doctor d where d.uid=?0";
+        List<User> patients = find(hql, doctorid);
+        return patients;
+    }
+
 }

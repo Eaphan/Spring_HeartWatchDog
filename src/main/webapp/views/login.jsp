@@ -101,7 +101,7 @@
             swal({title:"警告",text:"密码不能为空！",type:"warning"});
             return false;
         }
-        if (form.code.value == "") {
+        if (form.checkcode.value == "") {
             swal({title:"警告",text:"验证码不能为空！",type:"warning"});
             return false;
         }

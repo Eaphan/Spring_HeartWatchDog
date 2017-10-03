@@ -303,6 +303,15 @@ CREATE TABLE user_rela (
   FOREIGN KEY (uid) REFERENCES user(uid),
   FOREIGN KEY (reid) REFERENCES user(uid)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+CREATE TABLE doctor_user (
+  id int  NOT NULL AUTO_INCREMENT,
+  uid int NOT NULL,
+  doctorid int  NOT NULL,
+  PRIMARY KEY (id),
+  FOREIGN KEY (uid) REFERENCES user(uid),
+  FOREIGN KEY (doctorid) REFERENCES user(uid)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
 create table friend_request(
   id int not null AUTO_INCREMENT,
   uid int  NOT NULL ,

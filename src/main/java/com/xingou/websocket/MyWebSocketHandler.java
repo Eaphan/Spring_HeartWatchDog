@@ -2,6 +2,9 @@ package com.xingou.websocket;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.xingou.entity.Doctor;
+import com.xingou.entity.User;
+import com.xingou.service.DoctorService;
 import com.xingou.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -10,11 +13,12 @@ import com.xingou.entity.Message;
 import java.io.IOException;
 import java.util.Date;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
+/*
  * Socket处理器
  */
 @Component
@@ -22,8 +26,17 @@ public class MyWebSocketHandler implements WebSocketHandler {
 	//用于保存HttpSession与WebSocketSession的映射关系
 	public static final Map<Integer, WebSocketSession> userSocketSessionMap;
 
+	private UserService userService;
+	private DoctorService doctorService;
+
 	@Autowired
-	UserService userService;
+	public void setUserService(UserService userService) {
+		this.userService=userService;
+	}
+	@Autowired
+	public void setDoctorService(DoctorService doctorService) {
+		this.doctorService = doctorService;
+	}
 	
 	static {
 		userSocketSessionMap = new ConcurrentHashMap<Integer, WebSocketSession>();
@@ -31,10 +44,14 @@ public class MyWebSocketHandler implements WebSocketHandler {
 	
 	/**
 	 * 建立连接后,把登录用户的id写入WebSocketSession
+	 * 建立连接后,把登录用户的id写入WebSocketSession,并提示所有我的好友老子上线了
 	 */
 	public void afterConnectionEstablished(WebSocketSession session)
 			throws Exception {
 		Integer uid = (Integer) session.getAttributes().get("uid");
+		List<User> friends = userService.findFriends(uid);
+		List<User> patients = userService.findPatients(uid);
+		List<Doctor> doctors = doctorService.findDoctors(uid);
 //		String username=userService.findUserById(uid).getUname();
 		String username=userService.findUnameById(uid);
 		if (userSocketSessionMap.get(uid) == null) {
@@ -42,7 +59,22 @@ public class MyWebSocketHandler implements WebSocketHandler {
 			Message msg = new Message();
 			msg.setFrom(0);//0表示上线消息
 			msg.setText(username);
-			this.broadcast(new TextMessage(new GsonBuilder().setDateFormat("yyyy-MM-dd HH:mm:ss").create().toJson(msg)));
+			for (User friend : friends) {
+				if (userSocketSessionMap.get(friend.getUid()) != null) {
+					sendMessageToUser(friend.getUid(), new TextMessage(new GsonBuilder().setDateFormat("yyyy-MM-dd HH:mm:ss").create().toJson(msg)));
+				}
+			}
+			for (User patient : patients) {
+				if (userSocketSessionMap.get(patient.getUid()) != null) {
+					msg.setFrom(-3);
+					sendMessageToUser(patient.getUid(), new TextMessage(new GsonBuilder().setDateFormat("yyyy-MM-dd HH:mm:ss").create().toJson(msg)));
+				}
+			}
+			for (User doctor : doctors) {
+				if (userSocketSessionMap.get(doctor.getUid()) != null) {
+					sendMessageToUser(doctor.getUid(), new TextMessage(new GsonBuilder().setDateFormat("yyyy-MM-dd HH:mm:ss").create().toJson(msg)));
+				}
+			}
 		}
 	}
 
@@ -76,7 +108,26 @@ public class MyWebSocketHandler implements WebSocketHandler {
 				Message msg = new Message();
 				msg.setFrom(-2);
 				msg.setText(username);
-				this.broadcast(new TextMessage(new GsonBuilder().setDateFormat("yyyy-MM-dd HH:mm:ss").create().toJson(msg)));
+//				this.broadcast(new TextMessage(new GsonBuilder().setDateFormat("yyyy-MM-dd HH:mm:ss").create().toJson(msg)));
+				List<User> friends = userService.findFriends(entry.getKey());
+				List<User> patients = userService.findPatients(entry.getKey());
+				List<Doctor> doctors = doctorService.findDoctors(entry.getKey());
+				for (User friend : friends) {
+					if (userSocketSessionMap.get(friend.getUid()) != null) {
+						sendMessageToUser(friend.getUid(), new TextMessage(new GsonBuilder().setDateFormat("yyyy-MM-dd HH:mm:ss").create().toJson(msg)));
+					}
+				}
+				for (User patient : patients) {
+					if (userSocketSessionMap.get(patient.getUid()) != null) {
+						msg.setFrom(-4);
+						sendMessageToUser(patient.getUid(), new TextMessage(new GsonBuilder().setDateFormat("yyyy-MM-dd HH:mm:ss").create().toJson(msg)));
+					}
+				}
+				for (User doctor : doctors) {
+					if (userSocketSessionMap.get(doctor.getUid()) != null) {
+						sendMessageToUser(doctor.getUid(), new TextMessage(new GsonBuilder().setDateFormat("yyyy-MM-dd HH:mm:ss").create().toJson(msg)));
+					}
+				}
 				break;
 			}
 		}
@@ -85,6 +136,7 @@ public class MyWebSocketHandler implements WebSocketHandler {
 	/**
 	 * 关闭连接后
 	 */
+//	根据WebSocketSession的ID来从userSocketSessionMap中除去用户ID
 	public void afterConnectionClosed(WebSocketSession session, CloseStatus closeStatus) throws Exception {
 		System.out.println("Websocket:" + session.getId() + "已经关闭");
 		Iterator<Entry<Integer, WebSocketSession>> it = userSocketSessionMap.entrySet().iterator();
@@ -99,7 +151,25 @@ public class MyWebSocketHandler implements WebSocketHandler {
 				Message msg = new Message();
 				msg.setFrom(-2);//下线消息，用-2表示
 				msg.setText(username);
-				this.broadcast(new TextMessage(new GsonBuilder().setDateFormat("yyyy-MM-dd HH:mm:ss").create().toJson(msg)));
+//				this.broadcast(new TextMessage(new GsonBuilder().setDateFormat("yyyy-MM-dd HH:mm:ss").create().toJson(msg)));
+				List<User> friends = userService.findFriends(entry.getKey());
+				List<User> patients = userService.findPatients(entry.getKey());
+				List<Doctor> doctors = doctorService.findDoctors(entry.getKey());
+				for (User friend : friends) {
+					if (userSocketSessionMap.get(friend.getUid()) != null) {
+						sendMessageToUser(friend.getUid(), new TextMessage(new GsonBuilder().setDateFormat("yyyy-MM-dd HH:mm:ss").create().toJson(msg)));
+					}
+				}
+				for (User patient : patients) {
+					if (userSocketSessionMap.get(patient.getUid()) != null) {
+						sendMessageToUser(patient.getUid(), new TextMessage(new GsonBuilder().setDateFormat("yyyy-MM-dd HH:mm:ss").create().toJson(msg)));
+					}
+				}
+				for (User doctor : doctors) {
+					if (userSocketSessionMap.get(doctor.getUid()) != null) {
+						sendMessageToUser(doctor.getUid(), new TextMessage(new GsonBuilder().setDateFormat("yyyy-MM-dd HH:mm:ss").create().toJson(msg)));
+					}
+				}
 				break;
 			}
 		}

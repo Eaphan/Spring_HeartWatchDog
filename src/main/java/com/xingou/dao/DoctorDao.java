@@ -12,4 +12,6 @@ import java.util.List;
 public interface DoctorDao extends BaseDao<Doctor> {
     Doctor findByNameAndPass(Doctor doctor);
     Doctor findByName(String name);
+
+    List findDoctors(int uid);
 }

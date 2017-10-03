@@ -208,7 +208,7 @@
 
 .nav-sm .navbar.nav_title a i {
     font-size: 27px;
-    margin: 13px 0 0 3px
+    margin: 14px 0 0 3px
 }
 
 .site_title i {
@@ -320,7 +320,7 @@
 }
 
 .profile_info span {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 30px;
     color: #BAB8B8
 }
@@ -405,7 +405,8 @@
 }
 
 body .container.body .right_col {
-    background: #F7F7F7
+    /*background: #F7F7F7*/
+    background: #FFF
 }
 
 .nav-md .container.body .right_col {
@@ -567,10 +568,12 @@ body .container.body .right_col {
 }
 
 body {
-    color: #73879C;
-    background: #2A3F54;
+    /*color: #73879C;*/
+    /*background: #2A3F54;*/
+    color: #333;
+    backgroud: #fff;
     font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 1.471
 }
@@ -834,7 +837,7 @@ a {
 }
 
 .nav > li > a {
-    padding: 13px 15px 12px
+    padding: 14px 15px 12px
 }
 
 .nav.side-menu > li.active, .nav.side-menu > li.current-page {
@@ -1095,7 +1098,7 @@ h2 {
     color: #C0392B;
     border: 1px solid #C0392B;
     padding: 6px 10px 5px;
-    font-size: 13px;
+    font-size: 14px;
     margin-right: 7px
 }
 
@@ -1129,7 +1132,7 @@ h2 {
 
 .accordion .panel-heading {
     background: #F2F5F7;
-    padding: 13px;
+    padding: 14px;
     width: 100%;
     display: block
 }
@@ -1300,7 +1303,7 @@ table.tile td ul li {
 table.tile td ul li a big {
     right: 0;
     float: right;
-    margin-right: 13px
+    margin-right: 14px
 }
 
 table.tile_info td {
@@ -1356,7 +1359,7 @@ h3.degrees {
 .degrees:after {
     content: "o";
     top: -12px;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 300
 }
 
@@ -1689,7 +1692,7 @@ ul.msg_list li a .message {
 .info-number .badge {
     font-size: 10px;
     font-weight: 400;
-    line-height: 13px;
+    line-height: 14px;
     padding: 2px 6px;
     position: absolute;
     right: 2px;
@@ -1917,7 +1920,7 @@ span.right {
 
 @media (min-width: 768px) {
     .tile_count .tile_stats_count span {
-        font-size: 13px
+        font-size: 14px
     }
 }
 
@@ -2427,12 +2430,12 @@ legend {
 
 .form-control-feedback.left {
     border-right: 1px solid #ccc;
-    left: 13px
+    left: 14px
 }
 
 .form-control-feedback.right {
     border-left: 1px solid #ccc;
-    right: 13px
+    right: 14px
 }
 
 .form-control.has-feedback-left {
@@ -2525,7 +2528,7 @@ input.parsley-error, select.parsley-error, textarea.parsley-error {
     border-style: solid;
     border-width: 11px 7px;
     position: absolute;
-    left: -13px;
+    left: -14px;
     top: 1px
 }
 
@@ -2773,7 +2776,7 @@ span.tag a {
     width: 80px;
     margin: 0;
     font-family: helvetica;
-    font-size: 13px;
+    font-size: 14px;
     border: 1px solid transparent;
     padding: 3px;
     background: 0 0;
@@ -2884,7 +2887,7 @@ ul.timeline li {
 .timeline .tag {
     display: block;
     height: 30px;
-    font-size: 13px;
+    font-size: 14px;
     padding: 8px
 }
 
@@ -3411,7 +3414,7 @@ ul.project_files li a i {
 }
 
 .pricing_footer p {
-    font-size: 13px;
+    font-size: 14px;
     padding: 10px 0 2px;
     display: block
 }
@@ -3976,7 +3979,7 @@ a.hiddenanchor {
 }
 
 .login_content div .reset_pass {
-    margin-top: 13px !important;
+    margin-top: 14px !important;
     margin-right: 39px;
     float: right
 }

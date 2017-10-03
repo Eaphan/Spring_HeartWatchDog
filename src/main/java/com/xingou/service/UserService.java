@@ -27,7 +27,10 @@ public interface UserService {
     User findUserByName(String unmae);
 
     String findUnameById(int id);
+    int findIdByUname(String uname);
     void addFriend(User user, int id);
 
     void deleteFriend(User user, int id);
+
+    List findPatients(int doctorid);
 }

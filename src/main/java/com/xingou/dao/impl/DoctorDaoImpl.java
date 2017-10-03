@@ -30,4 +30,11 @@ public class DoctorDaoImpl extends BaseDaoImpl<Doctor> implements DoctorDao {
         }
         return null;
     }
+
+    public List findDoctors(int uid) {
+        String hql = "select u.doctors from User u where u.uid=?0";
+        List<Doctor> doctors= find(hql, uid);
+        return doctors;
+    }
+
 }

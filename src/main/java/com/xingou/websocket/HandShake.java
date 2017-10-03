@@ -20,14 +20,18 @@ public class HandShake implements HandshakeInterceptor {
 	public boolean beforeHandshake(ServerHttpRequest request, ServerHttpResponse response, WebSocketHandler wsHandler, Map<String, Object> attributes) throws Exception {
 //		System.out.println("Websocket:用户[ID:" + ((ServletServerHttpRequest) request).getServletRequest().getSession(false).getAttribute("uid") + "]已经建立连接");
 		User user = (User)((ServletServerHttpRequest) request).getServletRequest().getSession(false).getAttribute("user");
-		int uid = user.getUid();
+		if (user == null) {
+			user=(User)((ServletServerHttpRequest) request).getServletRequest().getSession(false).getAttribute("doctor");
+		}
+		System.out.println("++++++++++"+user.getUname()+"已经建立连接");
+//		int uid = user.getUid();
 		if (request instanceof ServletServerHttpRequest) {
-			ServletServerHttpRequest servletRequest = (ServletServerHttpRequest) request;
-			HttpSession session = servletRequest.getServletRequest().getSession(false);
+//			ServletServerHttpRequest servletRequest = (ServletServerHttpRequest) request;
+//			HttpSession session = servletRequest.getServletRequest().getSession(false);
 			// 标记用户
-//			int uid = (int) session.getAttribute("uid");
+//			Integer uid = (Integer) session.getAttribute("uid");
 			if(user!=null){
-				attributes.put("uid", uid);
+				attributes.put("uid", user.getUid());
 			}else{
 				return false;
 			}

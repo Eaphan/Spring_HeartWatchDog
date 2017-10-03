@@ -12,6 +12,8 @@
       <spring.version>4.2.6.RELEASE</spring.version>
       <jackson.version>2.6.0</jackson.version>
       <hibernateVersion>4.3.5.Final</hibernateVersion>
+      <!--<jetty.version>9.4.7.v20170914</jetty.version>-->
+      <jetty.version>9.3.4.RC0</jetty.version>
   </properties>
   <dependencies>
       <dependency>
@@ -70,12 +72,7 @@
           <artifactId>spring-websocket</artifactId>
           <version>${spring.version}</version>
       </dependency>
-      <!--<dependency>-->
-          <!--<groupId>org.eclipse.jetty.websocket</groupId>-->
-          <!--<artifactId>websocket-server</artifactId>-->
-          <!--<version>9.2.17.v20160517</version>-->
-          <!--<scope>test</scope>-->
-      <!--</dependency>-->
+
       <dependency>
           <groupId>org.springframework</groupId>
           <artifactId>spring-aspects</artifactId>
@@ -102,8 +99,8 @@
       <!-- Servlet -->
       <dependency>
           <groupId>javax.servlet</groupId>
-          <artifactId>servlet-api</artifactId>
-          <version>2.5</version>
+          <artifactId>javax.servlet-api</artifactId>
+          <version>3.1-b09</version>
           <scope>provided</scope>
       </dependency>
       <dependency>
@@ -158,26 +155,76 @@
           <version>${hibernateVersion}</version>
       </dependency>
 
+      <dependency>
+          <groupId>org.eclipse.jetty.websocket</groupId>
+          <artifactId>websocket-client</artifactId>
+          <version>${jetty.version}</version>
+          <!--<scope>provided</scope>-->
+      </dependency>
+      <dependency>
+          <groupId>org.eclipse.jetty.websocket</groupId>
+          <artifactId>websocket-server</artifactId>
+          <version>${jetty.version}</version>
+          <!--<scope>provided</scope>-->
+      </dependency>
+      <dependency>
+          <groupId>org.eclipse.jetty</groupId>
+          <artifactId>jetty-webapp</artifactId>
+          <version>${jetty.version}</version>
+          <!--<scope>provided</scope>-->
+      </dependency>
+      <dependency>
+          <groupId>org.eclipse.jetty</groupId>
+          <artifactId>jetty-client</artifactId>
+          <version>${jetty.version}</version>
+          <!--<scope>provided</scope>-->
+      </dependency>
+      <!-- https://mvnrepository.com/artifact/org.json/json -->
+      <dependency>
+          <groupId>org.json</groupId>
+          <artifactId>json</artifactId>
+          <version>20160810</version>
+      </dependency>
 
   </dependencies>
-  <build>
-      <finalName>Spring_HeartWatchDog</finalName>
-      <plugins>
-          <plugin>
-              <groupId>org.mortbay.jetty</groupId>
-              <artifactId>maven-jetty-plugin</artifactId>
-              <version>6.1.25</version>
-              <configuration>
-                  <connectors>
-                      <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
-                          <port>80</port>
-                          <maxIdleTime>60000</maxIdleTime>
-                      </connector>
-                  </connectors>
-                  <contextPath>/</contextPath>
-                  <scanIntervalSeconds>0</scanIntervalSeconds>
-              </configuration>
-          </plugin>
-      </plugins>
-  </build>
+    <build>
+        <finalName>Spring_HeartWatchDog</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.eclipse.jetty</groupId>
+                <version>${jetty.version}</version>
+                <artifactId>jetty-maven-plugin</artifactId>
+                <configuration>
+                    <scanIntervalSeconds>5</scanIntervalSeconds>
+                    <webApp>
+                        <contextPath>/</contextPath>
+                    </webApp>
+                    <httpConnector>
+                        <port>80</port>
+                    </httpConnector>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+  <!--<build>-->
+      <!--<finalName>Spring_HeartWatchDog</finalName>-->
+      <!--<plugins>-->
+          <!--<plugin>-->
+              <!--<groupId>org.mortbay.jetty</groupId>-->
+              <!--<artifactId>maven-jetty-plugin</artifactId>-->
+              <!--<version>9.2.1.v20140609</version>-->
+              <!--<configuration>-->
+                  <!--<connectors>-->
+                      <!--<connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">-->
+                          <!--<port>80</port>-->
+                          <!--<maxIdleTime>60000</maxIdleTime>-->
+                      <!--</connector>-->
+                  <!--</connectors>-->
+                  <!--<contextPath>/</contextPath>-->
+                  <!--<scanIntervalSeconds>0</scanIntervalSeconds>-->
+              <!--</configuration>-->
+          <!--</plugin>-->
+      <!--</plugins>-->
+  <!--</build>-->
 </project>
