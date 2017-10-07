@@ -71,6 +71,7 @@
             <tr>
               <th data-field="id">编号</th>
               <th data-field="date">记录时间</th>
+              <th data-field="conclusion" align="center">结论</th>
               <th data-field="read" align="center">操作</th>
               <th data-field="del" align="center">删除</th>
             </tr>

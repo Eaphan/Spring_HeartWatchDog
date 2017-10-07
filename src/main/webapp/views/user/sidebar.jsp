@@ -15,7 +15,7 @@
                     <ul class="nav child_menu">
                         <li><a href="/infoTime">心电检测</a></li>
                         <li><a href="/info24Time">24小时holter</a></li>
-                        <li><a href="#">尿液分析</a></li>
+                        <li><a href="/urineTime">尿液分析</a></li>
                         <li><a href="#">体脂检测</a></li>
                     </ul>
                 </li>

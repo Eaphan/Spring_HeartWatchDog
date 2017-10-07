@@ -54,6 +54,7 @@ public class Info24Controller {
             JsonObject ob = new JsonObject();
             ob.addProperty("id", i + 1);
             ob.addProperty("date", single.getDate());
+            ob.addProperty("conclusion","<a onclick=\"seeCon(this)\" name=\""+single.getId()+"\">查看结论</a>");
             ob.addProperty("read", "<a href=\"info24Single/" + single.getId() + " \"target=\"_blank\">查看记录</a>");
             ob.addProperty("del", "<a href=\"info24Delete/" + single.getId() + "\">删除记录</a>");
             array.add(ob);
@@ -76,6 +77,7 @@ public class Info24Controller {
             JsonObject ob = new JsonObject();
             ob.addProperty("id", i + 1);
             ob.addProperty("date", single.getDate());
+            ob.addProperty("conclusion","<a onclick=\"seeCon(this)\" name=\""+single.getId()+"\">查看结论</a>");
             ob.addProperty("read", "<a href=\"info24Single/" + single.getId() + " \"target=\"_blank\">查看记录</a>");
             ob.addProperty("del", "<a href=\"info24Delete/" + single.getId() + "\">删除记录</a>");
             array.add(ob);
