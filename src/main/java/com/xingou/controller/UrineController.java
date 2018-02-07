@@ -112,6 +112,5 @@ public class UrineController {
         }
         return model;
     }
-
 }
 

@@ -7,32 +7,24 @@ package com.xingou.controller;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
-import com.xingou.entity.Doctor;
 import com.xingou.entity.Info;
 import com.xingou.entity.User;
-import com.xingou.service.DoctorService;
 import com.xingou.service.InfoService;
-import com.xingou.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
-import javax.imageio.ImageIO;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
 import java.util.Map;
-import java.util.Random;
-import java.util.Set;
-
-import static java.awt.SystemColor.info;
 
 @Controller
 public class InfoController {
@@ -54,6 +46,11 @@ public class InfoController {
         return "user/infolist";
     }
 
+    @RequestMapping(value = "/tendIndex",method = RequestMethod.GET)
+    public String temdindex() {
+        return "user/tendindex";
+    }
+
     @RequestMapping(value = "/infoSelect")
     public void infoSelect(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession();
@@ -72,6 +69,17 @@ public class InfoController {
         }
         PrintWriter out = response.getWriter();
         out.print(array);
+    }
+    @RequestMapping(value = "/infoTend")
+    public ModelAndView infoTend(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        HttpSession session = request.getSession();
+        User user = (User) session.getAttribute("user");
+        int uid = user.getUid();
+        List<Info> infoList = infoService.selectInfo(uid);
+        ModelAndView mav = new ModelAndView();
+        mav.setViewName("user/infotend");
+        mav.addObject("infoList", infoList);
+        return mav;
     }
 
     @RequestMapping(value = "/infoSelectByTime")
@@ -120,6 +128,5 @@ public class InfoController {
         }
         return model;
     }
-
 }
 

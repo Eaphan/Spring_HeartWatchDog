@@ -29,7 +29,7 @@
     </init-param>
     <init-param>
       <param-name>singleSession</param-name>
-      <param-value>false</param-value>
+      <param-value>true</param-value>
     </init-param>
     <init-param>
     <param-name>flushMode</param-name>
@@ -39,6 +39,7 @@
   <filter-mapping>
     <filter-name>hibernateFilter</filter-name>
     <url-pattern>/*</url-pattern>
+    <!--<url-pattern>/</url-pattern>-->
     <dispatcher>REQUEST</dispatcher>
     <dispatcher>FORWARD</dispatcher>
   </filter-mapping>
@@ -105,4 +106,7 @@
   <welcome-file-list>
     <welcome-file>views/login.jsp</welcome-file>
   </welcome-file-list>
+  <session-config>
+    <session-timeout>60</session-timeout>
+  </session-config>
 </web-app>

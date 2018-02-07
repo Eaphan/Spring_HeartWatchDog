@@ -107,8 +107,6 @@ public class Medicalhistory {
         if (o == null || getClass() != o.getClass()) return false;
 
         Medicalhistory that = (Medicalhistory) o;
-
-        if (id != that.id) return false;
         if (city != null ? !city.equals(that.city) : that.city != null) return false;
         if (date != null ? !date.equals(that.date) : that.date != null) return false;
         if (hospital != null ? !hospital.equals(that.hospital) : that.hospital != null) return false;
@@ -121,7 +119,7 @@ public class Medicalhistory {
 
     @Override
     public int hashCode() {
-        int result = id;
+        int result = id != null ? id.hashCode() : 0;
         result = 31 * result + (city != null ? city.hashCode() : 0);
         result = 31 * result + (date != null ? date.hashCode() : 0);
         result = 31 * result + (hospital != null ? hospital.hashCode() : 0);

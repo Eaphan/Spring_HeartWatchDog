@@ -344,3 +344,12 @@ CREATE TABLE urine (
   PRIMARY KEY (id),
   FOREIGN KEY (uid) REFERENCES user(uid)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE temperature (
+  id int  NOT NULL AUTO_INCREMENT,
+  uid int  NOT NULL,
+  date varchar(20) NOT NULL,
+  temp varchar(10) not null,
+  PRIMARY KEY (id),
+  FOREIGN KEY (uid) REFERENCES user(uid)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

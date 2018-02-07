@@ -19,14 +19,14 @@
                         <li><a href="#">体脂检测</a></li>
                     </ul>
                 </li>
-                <li><a href="#"><i class="fa fa-signal"></i> 趋势显示/分析 </a></li>
+                <li><a href="/tendIndex"><i class="fa fa-signal"></i> 趋势显示/分析 </a></li>
                 <li><a href="#"><i class="fa fa-id-card-o"></i> 健康档案管理 </a>
                     <ul class="nav child_menu">
-                        <li><a href="#">上传/下载报告</a></li>
-                        <li><a href="#">编辑体检报告</a></li>
+                        <li><a href="/fileList">上传/下载报告</a></li>
+                        <li><a href="/examinationList">编辑体检报告</a></li>
                     </ul>
                 </li>
-                <li><a href="#"><i class="fa fa-file"></i> 电子病历 </a></li>
+                <li><a href="/medicalhistoryList"><i class="fa fa-file"></i> 电子病历 </a></li>
                 <li><a href="relaManage"><i class="fa fa-list-ul"></i> 亲友管理 </a></li>
                 <li><a href="#"><i class="fa fa-user-md"></i> 私人医生 </a></li>
                 <li><a href="#"><i class="fa fa-user"></i> 个人信息 </a></li>

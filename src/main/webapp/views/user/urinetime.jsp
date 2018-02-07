@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
     <!-- Custom Theme Style -->
     <link href="/css/custom.min.css" rel="stylesheet">
-    <link href="css/bootstrap-datetimepicker.css" rel="stylesheet">
+    <link href="/css/bootstrap-datetimepicker.css" rel="stylesheet">
     <link href="//cdn.bootcss.com/bootstrap-table/1.11.1/bootstrap-table.min.css" rel="stylesheet">
 
   </head>

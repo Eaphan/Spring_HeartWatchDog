@@ -16,9 +16,6 @@ import java.util.List;
 public class RelaServiceImpl implements RelaService {
     @Resource
     private RelaDao relaDao;
-    public void setRelaDao(RelaDao relaDao) {
-        this.relaDao = relaDao;
-    }
     public List findRequestFriends(int uid){
         List<FriendRequest> requestFriends = relaDao.findRequestFriends(uid);
         return requestFriends;

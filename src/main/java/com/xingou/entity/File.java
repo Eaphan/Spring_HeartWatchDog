@@ -8,6 +8,7 @@ package com.xingou.entity;/*
 import org.hibernate.annotations.*;
 import org.hibernate.annotations.Cache;
 import javax.persistence.*;
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
@@ -20,7 +21,6 @@ public class File {
     private String filedate;
     private String fileinfo;
     private User user;
-
     public File() {
 
     }
@@ -73,7 +73,6 @@ public class File {
 
         File file = (File) o;
 
-        if (id != file.id) return false;
         if (fileaddr != null ? !fileaddr.equals(file.fileaddr) : file.fileaddr != null) return false;
         if (filedate != null ? !filedate.equals(file.filedate) : file.filedate != null) return false;
         if (fileinfo != null ? !fileinfo.equals(file.fileinfo) : file.fileinfo != null) return false;
@@ -83,7 +82,7 @@ public class File {
 
     @Override
     public int hashCode() {
-        int result = id;
+        int result = id != null ? id.hashCode() : 0;
         result = 31 * result + (fileaddr != null ? fileaddr.hashCode() : 0);
         result = 31 * result + (filedate != null ? filedate.hashCode() : 0);
         result = 31 * result + (fileinfo != null ? fileinfo.hashCode() : 0);

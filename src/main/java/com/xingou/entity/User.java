@@ -35,6 +35,7 @@ public class User implements Serializable {
     private Set<FriendRequest> toreceived_friends;
     private Set<Info> infos;
     private Set<Info24> info24s;
+    private Set<Temperature> temperatures;
     private Set<Medicalhistory> medicalhistorys;
     private Set<Suggestion> suggestions;
     private Set<User> friends;
@@ -143,7 +144,7 @@ public class User implements Serializable {
         this.userinfo = userinfo;
     }
 
-    @OneToMany(mappedBy = "user")
+    @OneToMany(mappedBy = "user",fetch = FetchType.EAGER)
     public Set<Examination> getExaminations() {
         return Examinations;
     }
@@ -151,7 +152,7 @@ public class User implements Serializable {
         Examinations = examinations;
     }
 
-    @OneToMany(mappedBy = "user")
+    @OneToMany(mappedBy = "user", fetch = FetchType.EAGER)
     public Set<File> getFiles() {
         return files;
     }
@@ -196,7 +197,7 @@ public class User implements Serializable {
 
 //,fetch = FetchType.EAGER
 //    @OneToMany(mappedBy = "user")
-    @OneToMany(mappedBy = "user")
+    @OneToMany(mappedBy = "user",fetch = FetchType.EAGER)
     public Set<Info> getInfos() {
         return infos;
     }
@@ -213,13 +214,21 @@ public class User implements Serializable {
         this.info24s = info24s;
     }
     @OneToMany(mappedBy = "user")
+    public Set<Temperature> getTemperatures() {
+        return temperatures;
+    }
+    public void setTemperatures(Set<Temperature> temperatures) {
+        this.temperatures = temperatures;
+    }
+
+    @OneToMany(mappedBy = "user",fetch = FetchType.EAGER)
     public Set<Medicalhistory> getMedicalhistorys() {
         return medicalhistorys;
     }
-
     public void setMedicalhistorys(Set<Medicalhistory> medicalhistorys) {
         this.medicalhistorys = medicalhistorys;
     }
+
     @OneToMany(mappedBy = "user")
     public Set<Suggestion> getSuggestions() {
         return suggestions;
@@ -239,5 +248,6 @@ public class User implements Serializable {
     public void setDoctors(Set<Doctor> doctors) {
         this.doctors = doctors;
     }
+
 
 }

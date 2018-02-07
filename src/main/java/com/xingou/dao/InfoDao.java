@@ -7,6 +7,9 @@ package com.xingou.dao;/*
 
 import com.xingou.entity.Info;
 
+import java.util.List;
+
 public interface InfoDao extends BaseDao<Info> {
+
 
 }
